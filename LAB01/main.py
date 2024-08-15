@@ -1,6 +1,6 @@
 import requests
 
-token = "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"
+token = "token"
 
 #Função para obeter os repositórios mais populares com o termo-chave "open source"
 def get_popular_repos(termo_chave, num_repos):

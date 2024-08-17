@@ -1,4 +1,5 @@
 import requests
+from datetime import datetime
 
 token = "token"
 
@@ -77,9 +78,9 @@ def get_ultima_atualizacao(owner, repo):
     if response.status_code == 200:
         info_repo = response.json()
         str_ultima_atualizacao = info_repo['pushed_at']
-        ultima_atualizacao = datetime.date.fromisoformat(str_ultima_atualizacao[:-1]).replace(tzinfo=timezone.utc)
+        ultima_atualizacao = datetime_object = datetime.strptime(str_ultima_atualizacao, '%Y-%m-%dT%H:%M:%SZ')
 
-        return datetime.now(timezone.utc) - ultima_atualizacao
+        return datetime.now() - ultima_atualizacao
     
     else:
         raise Exception(f"Falha na requisição da última atualização: {response.status_code}")
@@ -155,6 +156,7 @@ def coletar_e_imprimir_dados(repos):
         releases = get_releases(owner, repo_name)
         main_language = get_linguagem(owner, repo_name)
         closed_issues = get_porcentagem_issues(owner, repo_name)
+        day_since_last_commit =  get_ultima_atualizacao(owner, repo_name)
 
 
         print(f"Repository: {repo_name}")
@@ -166,6 +168,7 @@ def coletar_e_imprimir_dados(repos):
         print(f"Watchers: {repo_details['watchers_count']}")
         print(f"Pull Requests: {pull_requests if pull_requests is not None else 'N/A'}")
         print(f"Last Commit Date: {repo_details['pushed_at']}")
+        print(f"Day since the last commit: {day_since_last_commit}")
         print(f"Main Language: {main_language}")
         print(f"License: {repo_details['license']['name'] if repo_details['license'] else 'No license'}")
         print(f"Contributors: {repo_details['network_count']}")

@@ -1,7 +1,8 @@
 import requests
+import csv
 from datetime import datetime
 
-token = "token"
+token = "tokens"
 
 #Função para obeter os repositórios mais populares com o termo-chave "open source"
 def get_popular_repos(termo_chave, num_repos):
@@ -146,7 +147,13 @@ def get_porcentagem_issues(owner,repo):
     return (get_issues_fechadas(owner, repo)/get_issues_totais(owner,repo)) * 100
 
 #Função para coletar e imprimir dados dos repositórios
-def coletar_e_imprimir_dados(repos):
+def salvar_em_arquivo_csv(repos):
+    list_of_repos = []
+    
+    fields = ['repository', 'owner', 'url', 'stars', 'forks', 'commits', 'pull_requests', 'last_commit', 'day_last_commit', 'main_language', 'main_branch', 'releases', 'closed_issues']
+
+    filename = "repos.csv"
+
     for repo in repos:
         owner = repo["owner"]["login"]
         repo_name = repo["name"]
@@ -159,32 +166,26 @@ def coletar_e_imprimir_dados(repos):
         day_since_last_commit =  get_ultima_atualizacao(owner, repo_name)
 
 
-        print(f"Repository: {repo_name}")
-        print(f"Owner: {owner}")
-        print(f"URL: {repo_details['html_url']}")
-        print(f"Stars: {repo_details['stargazers_count']}")
-        print(f"Forks: {repo_details['forks_count']}")
-        print(f"Commits: {repo_details['open_issues_count']}")
-        print(f"Watchers: {repo_details['watchers_count']}")
-        print(f"Pull Requests: {pull_requests if pull_requests is not None else 'N/A'}")
-        print(f"Last Commit Date: {repo_details['pushed_at']}")
-        print(f"Day since the last commit: {day_since_last_commit}")
-        print(f"Main Language: {main_language}")
-        print(f"License: {repo_details['license']['name'] if repo_details['license'] else 'No license'}")
-        print(f"Contributors: {repo_details['network_count']}")
-        print(f"Size: {repo_details['size']} KB")
-        print(f"Main Branch: {repo_details['default_branch']}")
-        print(f"Releases: {releases if releases is not None else 'N/A'}")
-        print(f"Closed Issues (%): {closed_issues if closed_issues is not None else 'N/A'}")
-        print(f"Topics: {', '.join(repo_details['topics']) if 'topics' in repo_details else 'No topics'}")
-        print("-" * 200)
+        this_repo = {'repository': {repo_name}, 'owner':{owner}, 'url':{repo_details['html_url']}, 'stars': {repo_details['stargazers_count']}, 
+                'forks': {repo_details['forks_count']}, 'commits':{repo_details['open_issues_count']}, 
+                'pull_requests' : {pull_requests if pull_requests is not None else 'N/A'}, 'last_commit':{repo_details['pushed_at']}, 
+                'day_last_commit':{day_since_last_commit}, 'main_language':{main_language}, 'main_branch':{repo_details['default_branch']}, 
+                'releases':{releases if releases is not None else 'N/A'}, 'closed_issues':{closed_issues if closed_issues is not None else 'N/A'}}
+
+        list_of_repos.append(this_repo)
+    
+    with open(filename, 'w') as csvfile:
+        writer =  csv.DictWriter(csvfile, fieldnames =  fields)
+        writer.writeheader()
+        writer.writerows(list_of_repos)
+
 
 #Main
 if __name__ == "__main__":
     keyword = "open source"
-    num_repos = 1
+    num_repos = 1000
     try:
         popular_repos = get_popular_repos(keyword, num_repos)
-        coletar_e_imprimir_dados(popular_repos)
+        salvar_em_arquivo_csv(popular_repos)
     except Exception as e:
         print(e)

@@ -6,7 +6,7 @@ token = "token"
 headers = {"Authorization" : f"token {token}"}
 body = """
 query {
-  search(query: "topic:Open Source sort:stars-desc", type: REPOSITORY, first: 1) {
+  search(query: "Open Source sort:stars-desc", type: REPOSITORY, first: 10) {
     edges {
       node {
         ... on Repository {
@@ -48,9 +48,19 @@ query {
 }
 """
 
-response = requests.post(url=url, headers=headers, json={"query" : body})
-if response.status_code == 200:
-    json_response = json.loads(response.content.decode('utf-8'))
-    print(json_response)
-else:
-    raise Exception(f"Falha na requisição para o repositório: {response.status_code}")
+def get_repos():
+    response = requests.post(url=url, headers=headers, json={"query" : body})
+    if response.status_code == 200:
+        json_response = json.loads(response.content.decode('utf-8'))
+        return json_response
+    else:
+        raise Exception(f"Falha na requisição para o repositório: {response.status_code}")
+
+def create_dict(json_response):
+    list_repo = json_response["data"]["search"]["edges"]
+    for repo in list_repo:
+        print(repo["node"]["name"])
+
+if __name__ == "__main__":
+    response = get_repos()
+    create_dict(response)

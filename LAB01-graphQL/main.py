@@ -7,10 +7,10 @@ from dotenv import load_dotenv
 #Carregando Token de .evn
 load_dotenv()
 
-url = "https://api.github.com/graphql"
-token = os.getenv("TOKEN") 
-headers = {"Authorization" : f"token {token}"}
-body = """
+BASE_URL = "https://api.github.com/graphql"
+ACCESS_TOKEN = os.getenv("TOKEN") 
+REQUEST_HEADERS = {"Authorization" : f"token {ACCESS_TOKEN}"}
+QUERY_STRING = """
 query {
   search(query: "Open Source sort:stars-desc", type: REPOSITORY, first: 10) {
     edges {
@@ -55,7 +55,7 @@ query {
 """
 
 def get_repos():
-    response = requests.post(url=url, headers=headers, json={"query" : body})
+    response = requests.post(url=BASE_URL, headers=REQUEST_HEADERS, json={"query" : QUERY_STRING})
     if response.status_code == 200:
         json_response = json.loads(response.content.decode('utf-8'))
         return json_response

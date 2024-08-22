@@ -1,8 +1,14 @@
 import requests
 import json
+import csv
+import os
+from dotenv import load_dotenv
+
+#Carregando Token de .evn
+load_dotenv()
 
 url = "https://api.github.com/graphql"
-token = "token"
+token = os.getenv("TOKEN") 
 headers = {"Authorization" : f"token {token}"}
 body = """
 query {
@@ -71,7 +77,17 @@ def create_dict(json_response):
         list_of_dict.append(this_repo)
 
     return list_of_dict
+
+def save_to_csv(repos_info):
+    filename = "repos.csv"
+    fields = ['name', 'create_date', 'total_pull_requests', 'total_releases', 'last_commit_date', 'main_language', 'total_issues', 'total_stars']
+
+    with open(filename, 'w') as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames = fields)
+        writer.writeheader()
+        writer.writerows(repos_info)
+
 if __name__ == "__main__":
     response = get_repos()
     repos_info = create_dict(response)
-    print(repos_info)
+    save_to_csv(repos_info)

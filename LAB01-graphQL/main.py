@@ -58,9 +58,20 @@ def get_repos():
 
 def create_dict(json_response):
     list_repo = json_response["data"]["search"]["edges"]
-    for repo in list_repo:
-        print(repo["node"]["name"])
+    list_of_dict = []
 
+    for repo in list_repo:
+        node = repo["node"]
+
+        this_repo = {'name': {node["name"]}, 'create_date': {node["createdAt"]}, 'total_pull_requests': {node["pullRequests"]["totalCount"]},
+                     'total_releases': {node["releases"]["totalCount"]}, 'last_commit_date': {node["defaultBranchRef"]["target"]["committedDate"]},
+                     'main_language': {node["primaryLanguage"]["name"]}, 'total_issues': {node["issues"]["totalCount"]}, 
+                     'total_stars': {node["stargazerCount"]}}
+
+        list_of_dict.append(this_repo)
+
+    return list_of_dict
 if __name__ == "__main__":
     response = get_repos()
-    create_dict(response)
+    repos_info = create_dict(response)
+    print(repos_info)

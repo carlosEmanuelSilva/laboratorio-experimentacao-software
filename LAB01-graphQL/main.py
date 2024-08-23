@@ -11,8 +11,8 @@ BASE_URL = "https://api.github.com/graphql"
 ACCESS_TOKEN = os.getenv("TOKEN") 
 REQUEST_HEADERS = {"Authorization" : f"token {ACCESS_TOKEN}"}
 QUERY_STRING = """
-query {
-  search(query: "Open Source sort:stars-desc", type: REPOSITORY, first: 10) {
+query($query: String!, $num: Int) {
+  search(query: $query, type: REPOSITORY, first: $num) {
     edges {
       node {
         ... on Repository {
@@ -55,7 +55,8 @@ query {
 """
 
 def get_repos():
-    response = requests.post(url=BASE_URL, headers=REQUEST_HEADERS, json={"query" : QUERY_STRING})
+    variables = {'query': 'Open Source sort:stars-desc', 'num': 30}
+    response = requests.post(url=BASE_URL, headers=REQUEST_HEADERS, json={"query" : QUERY_STRING, "variables" : variables})
     if response.status_code == 200:
         json_response = json.loads(response.content.decode('utf-8'))
         return json_response
@@ -68,10 +69,14 @@ def create_dict(json_response):
 
     for repo in list_repo:
         node = repo["node"]
-
-        this_repo = {'name': {node["name"]}, 'create_date': {node["createdAt"]}, 'total_pull_requests': {node["pullRequests"]["totalCount"]},
-                     'total_releases': {node["releases"]["totalCount"]}, 'last_commit_date': {node["defaultBranchRef"]["target"]["committedDate"]},
-                     'main_language': {node["primaryLanguage"]["name"]}, 'total_issues': {node["issues"]["totalCount"]}, 
+        print(node["name"])
+        this_repo = {'name': {node["name"]}, 
+                     'create_date': {node["createdAt"]}, 
+                     'total_pull_requests': {node["pullRequests"]["totalCount"]},
+                     'total_releases': {node["releases"]["totalCount"]}, 
+                     'last_commit_date': {node["defaultBranchRef"]["target"]["committedDate"]},
+                     'main_language': {'N/A' if node["primaryLanguage"] == None else node["primaryLanguage"]["name"]}, 
+                     'total_issues': {node["issues"]["totalCount"]}, 
                      'total_stars': {node["stargazerCount"]}}
 
         list_of_dict.append(this_repo)

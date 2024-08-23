@@ -2,9 +2,10 @@ import requests
 import json
 import csv
 import os
+import sys
 from dotenv import load_dotenv
 
-#Carregando Token de .evn
+#Carregando Token de .env
 load_dotenv()
 
 BASE_URL = "https://api.github.com/graphql"
@@ -54,8 +55,8 @@ query($query: String!, $num: Int) {
 }
 """
 
-def get_repos():
-    variables = {'query': 'Open Source sort:stars-desc', 'num': 30}
+def get_repos(query, num):
+    variables = {'query': f'{query} sort:stars-desc', 'num': num}
     response = requests.post(url=BASE_URL, headers=REQUEST_HEADERS, json={"query" : QUERY_STRING, "variables" : variables})
     if response.status_code == 200:
         json_response = json.loads(response.content.decode('utf-8'))
@@ -69,7 +70,6 @@ def create_dict(json_response):
 
     for repo in list_repo:
         node = repo["node"]
-        print(node["name"])
         this_repo = {'name': {node["name"]}, 
                      'create_date': {node["createdAt"]}, 
                      'total_pull_requests': {node["pullRequests"]["totalCount"]},
@@ -93,6 +93,11 @@ def save_to_csv(repos_info):
         writer.writerows(repos_info)
 
 if __name__ == "__main__":
-    response = get_repos()
-    repos_info = create_dict(response)
-    save_to_csv(repos_info)
+    if len(sys.argv) < 3:
+        print("Too few arguments")
+    elif len(sys.argv) > 3:
+        print("Too many arguments")
+    else:
+        response = get_repos(sys.argv[1], int(sys.argv[2]))
+        repos_info = create_dict(response)
+        save_to_csv(repos_info)

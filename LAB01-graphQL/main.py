@@ -12,8 +12,8 @@ BASE_URL = "https://api.github.com/graphql"
 ACCESS_TOKEN = os.getenv("TOKEN") 
 REQUEST_HEADERS = {"Authorization" : f"token {ACCESS_TOKEN}"}
 QUERY_STRING = """
-query($query: String!, $num: Int) {
-  search(query: $query, type: REPOSITORY, first: $num) {
+query($query: String!, $num: Int, $cursor: String) {
+  search(query: $query, type: REPOSITORY, first: $num, after: $cursor ) {
     edges {
       node {
         ... on Repository {
@@ -54,9 +54,10 @@ query($query: String!, $num: Int) {
   }
 }
 """
+list_of_dict = []
 
 def get_repos(query, num):
-    variables = {'query': f'{query} sort:stars-desc', 'num': num}
+    variables = {'query': f'{query} sort:stars-desc', 'num': num, 'cursor': ""}
     response = requests.post(url=BASE_URL, headers=REQUEST_HEADERS, json={"query" : QUERY_STRING, "variables" : variables})
     if response.status_code == 200:
         json_response = json.loads(response.content.decode('utf-8'))
@@ -66,7 +67,6 @@ def get_repos(query, num):
 
 def create_dict(json_response):
     list_repo = json_response["data"]["search"]["edges"]
-    list_of_dict = []
 
     for repo in list_repo:
         node = repo["node"]

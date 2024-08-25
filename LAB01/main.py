@@ -85,20 +85,19 @@ def get_info(query, num):
                         'main_language': {'N/A' if node["primaryLanguage"] == None else node["primaryLanguage"]["name"]}, 
                         'total_issues': {node["issues"]["totalCount"]}, 
                         'total_stars': {node["stargazerCount"]}}
+            
+            list_of_dict.append(this_repo)
 
-        list_of_dict.append(this_repo)
         cursor = json_response["data"]["search"]["pageInfo"]["endCursor"]
 
-    return list_of_dict
-
-def save_to_csv(repos_info):
+def save_to_csv():
     filename = "repos1.csv"
     fields = ['name', 'create_date', 'total_pull_requests', 'total_releases', 'last_commit_date', 'main_language', 'total_issues', 'total_stars']
 
     with open(filename, 'w') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames = fields)
         writer.writeheader()
-        writer.writerows(repos_info)
+        writer.writerows(list_of_dict)
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
@@ -107,4 +106,4 @@ if __name__ == "__main__":
         print("Too many arguments")
     else:
         repos_info = get_info(sys.argv[1], int(sys.argv[2]))
-        save_to_csv(repos_info)
+        save_to_csv()

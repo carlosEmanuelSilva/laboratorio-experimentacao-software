@@ -1,4 +1,4 @@
-#!/home/carlos/Documentos/faculdade/LES/LAB01/.venv/bin/python3
+#!/home/carlos/Documentos/faculdade/LES/LAB01-graphQL/.venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys

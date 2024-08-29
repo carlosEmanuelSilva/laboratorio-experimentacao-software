@@ -25,6 +25,48 @@ Este relatório busca explorar as características dos projetos open-source mais
 
 **RQ 06:** Sistemas populares têm uma alta porcentagem de issues fechadas. Uma alta taxa de issues fechadas pode indicar que a equipe de desenvolvimento é responsiva e eficaz na resolução de problemas, o que pode contribuir para a popularidade do software.
 
+# Metodologia
+
+**RQ 01:**
+
+**RQ 02:** Para analisar se sistemas populares recebem muita contribuição externas, serão analisados o valor minimo, máximo, quartil inferior, média e quartil superior do número total de pull requests aceitas junto com um gráfico scatter com todos os resultados.
+
+**RQ 03:** Para analisar se sistemas populares lançam releases com muita frequência, serão analisados o valor minimo, máximo, quartil inferior, média e quartil superior do número total de releases junto com um gráfico scatter com todos os resultados.
+
+**RQ 04:**
+
+**RQ 05:**
+
+**RQ 06:**
+
+# Resultados
+
+**RQ 01:**
+
+**RQ 02:** Os resultados mostram que há uma grande variação na quantidade de contribuições externas que os sistemas populares recebem. O número de pull requests aceitas varia de 0 a 73.397, com o quartil inferior sendo 43, a média 257,3 e quartil superior de 1391 pull requests.
+
+**RQ 03:** Os resultados mostram que há uma grande variação na frequência com que os sistemas populares lançam releases. O número total de releases varia de 0 a 1000, com o quartil inferior sendo 0, a média sendo 17 e quartil superior de 60 releases.
+
+**RQ 04:**
+
+**RQ 05:**
+
+**RQ 06:**
+
+# Discussão sobre hipótese e resultado
+
+**RQ 01:**
+
+**RQ 02:** Em conclusão, enquanto alguns sistemas populares recebem um número muito alto de contribuições externas, outros recebem relativamente poucas, as vezes até nenhuma. No entanto, a média e o quartil superior sugerem que, em geral, sistemas populares tendem a receber um número significativo de contribuições externas, porém, a popularidade não seria o melhor indicativo de que um sistema recebe muitas contribuições externas.
+
+**RQ 03:** Em conclusão, enquanto alguns sistemas populares lançam um número muito alto de releases, outros não lançam nenhuma. Entretanto, a média e o quartil superior sugerem que sistemas populares podem lançar releases com uma frequência moderada. Em geral, a frequência de lançamentos realmente dependem mais da filosofia de gerenciamento do repositório
+
+**RQ 04:**
+
+**RQ 05:**
+
+**RQ 06:**
+
 # Executando o script para coletar dados
 ## Instalando o Python
 Visite a [página oficial de Download do Python](https://www.python.org/downloads/) e busque instruções de instalação para seu sistema operacional.

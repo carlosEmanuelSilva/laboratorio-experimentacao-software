@@ -24,3 +24,28 @@ Este relatório busca explorar as características dos projetos open-source mais
 **RQ 05:** Sistemas populares são frequentemente escritos em linguagens de programação populares. Linguagens populares têm grandes comunidades de desenvolvedores, ampla documentação e suporte, o que facilita o desenvolvimento e a manutenção do software.
 
 **RQ 06:** Sistemas populares têm uma alta porcentagem de issues fechadas. Uma alta taxa de issues fechadas pode indicar que a equipe de desenvolvimento é responsiva e eficaz na resolução de problemas, o que pode contribuir para a popularidade do software.
+
+# Executando o script para coletar dados
+## Instalando o Python
+Visite a [página oficial de Download do Python](https://www.python.org/downloads/) e busque instruções de instalação para seu sistema operacional.
+
+## Instale os pacotes necessários
+Após instalar o Python, navegue até o diretório do projeto execute os seguintes comandos:
+
+`pip install requests`
+
+`pip install python-dotenv`
+
+## Criar .env
+Depois de instalar os pacotes necessários, crie um arquivo .env na raíz do diretório e escreva o seguinte
+
+`TOKEN="<insira aqui seu token de acesso>"`
+
+## Execute o programa
+Finalmente, após configurar o ambiente execute o programa da seguinte forma:
+
+`python3 main.py <termo de pesquisa entre aspas> <quantidade de resultados>`
+
+Para obter o mesmo arquivo csv que o presente no trabalho execute:
+
+`python3 main.py "Open Source" 1000`

@@ -35,7 +35,7 @@ Este relatório busca explorar as características dos projetos open-source mais
 
 **RQ 04:**
 
-**RQ 05:**
+**RQ 05:** Para analisar se sistemas populares utilizam linguagens populares, serão analisados as 5 linguagens mais usadas e ver que posição elas ocupam no ranking de linguagens mais populares de acordo com a pesquisa da jetbrains encontrada nesse link: https://blog.jetbrains.com/research/2024/05/developer-ecosystem-survey-insights-a-comparative-look-at-students-and-professionals/#programming-languages
 
 **RQ 06:**
 
@@ -49,7 +49,7 @@ Este relatório busca explorar as características dos projetos open-source mais
 
 **RQ 04:**
 
-**RQ 05:**
+**RQ 05:** Os resultados mostram que as 5 linguagens mais utilizadas pelos repositórios representam juntas 562 repositórios, sendo a primeira delas Python, com 147 repositórios e ocupa a primeira posição na lista de linguagens mais populares. A segunda é TypeScript com 135 repositórios, ocupando a nona posição da pesquisa. Terceira é C++ com 108 repositórios e ocupa sexto lugar na pesquisa. Quarta é o JavaScript com 102 repositórios e ocupa segundo lugar na pesquisa. Quinto é Go com 70 repositórios e ocupando décima terceira posição de linguagem mais popular
 
 **RQ 06:**
 
@@ -63,7 +63,7 @@ Este relatório busca explorar as características dos projetos open-source mais
 
 **RQ 04:**
 
-**RQ 05:**
+**RQ 05:** Em conclusão, a popularidade de uma linguagem de programação tende a influenciar a popularidade de um repositório. Linguagens populares têm grandes comunidades de desenvolvedores, ampla documentação e suporte, o que facilita o desenvolvimento e a manutenção do software.
 
 **RQ 06:**
 

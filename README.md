@@ -27,7 +27,7 @@ Este relatório busca explorar as características dos projetos open-source mais
 
 # Metodologia
 
-**RQ 01:**
+**RQ 01:** Para analisar se sistemas populares são maduros, serão analisados o valor minimo, máximo, quartil inferior, média e quartil superior do ano em que os repositórios foram criados
 
 **RQ 02:** Para analisar se sistemas populares recebem muita contribuição externas, serão analisados o valor minimo, máximo, quartil inferior, média e quartil superior do número total de pull requests aceitas junto com um gráfico scatter com todos os resultados.
 
@@ -41,7 +41,7 @@ Este relatório busca explorar as características dos projetos open-source mais
 
 # Resultados
 
-**RQ 01:**
+**RQ 01:** Os resultados mostram que os repositórios foram criados de 2008 a 2024. Com o quartil inferior sendo 2014, a média sendo 2017 e o quartil superior o ano de 2021.
 
 **RQ 02:** Os resultados mostram que há uma grande variação na quantidade de contribuições externas que os sistemas populares recebem. O número de pull requests aceitas varia de 0 a 73.397, com o quartil inferior sendo 43, a média 257,3 e quartil superior de 1391 pull requests.
 
@@ -55,7 +55,7 @@ Este relatório busca explorar as características dos projetos open-source mais
 
 # Discussão sobre hipótese e resultado
 
-**RQ 01:**
+**RQ 01:** Em conclusão, enquanto alguns sistemas tendem a ser bastante antigos, existem sistemas populares que são bem recentes. Porém, o quartil inferior e a média sugerem que, em geral, sistemas populares tendem sim a serem mais maduros
 
 **RQ 02:** Em conclusão, enquanto alguns sistemas populares recebem um número muito alto de contribuições externas, outros recebem relativamente poucas, as vezes até nenhuma. No entanto, a média e o quartil superior sugerem que, em geral, sistemas populares tendem a receber um número significativo de contribuições externas, porém, a popularidade não seria o melhor indicativo de que um sistema recebe muitas contribuições externas.
 

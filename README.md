@@ -57,9 +57,10 @@ Este relatório busca explorar as características dos projetos open-source mais
 
 ![linguagens](https://github.com/user-attachments/assets/0854b880-b94b-4b2c-9ea9-330d24dbd2cb)
 
-**RQ 06:** Os resultados mostram que há uma certa variação na porcentagem de isseus fechadas nos sistemas populares, com o número variando de 0% a 100%, com o quartil inferior sendo de 48,57%, a mediana sendo 81,57% e o quartil superior sendo de 95,52% de issues fechadas.
+**RQ 06:** Os resultados mostram que há uma certa variação na porcentagem de issues fechadas nos sistemas populares, com o número variando de 0% a 100%, com o quartil inferior sendo de 48,57%, a mediana sendo 81,57% e o quartil superior sendo de 95,52% de issues fechadas.
 
-![linguagens](https://github.com/user-attachments/assets/1f2fc756-2d05-4996-a2b5-f384502d194a)
+![Razao](https://github.com/user-attachments/assets/edca5b76-cf8f-4f49-bf68-964d6e8b71fa)
+
 
 # Discussão sobre hipótese e resultado
 

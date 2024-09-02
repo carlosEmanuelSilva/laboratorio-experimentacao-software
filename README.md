@@ -27,13 +27,13 @@ Este relatório busca explorar as características dos projetos open-source mais
 
 # Metodologia
 
-**RQ 01:** Para analisar se sistemas populares são maduros, serão analisados o valor minimo, máximo, quartil inferior, média e quartil superior do ano em que os repositórios foram criados
+**RQ 01:** Para analisar se sistemas populares são maduros, serão analisados o valor mínimo, máximo, quartil inferior, mediana e quartil superior do ano em que os repositórios foram criados
 
-**RQ 02:** Para analisar se sistemas populares recebem muita contribuição externas, serão analisados o valor minimo, máximo, quartil inferior, média e quartil superior do número total de pull requests aceitas junto com um gráfico scatter com todos os resultados.
+**RQ 02:** Para analisar se sistemas populares recebem muita contribuição externas, serão analisados o valor mínimo, máximo, quartil inferior, média e quartil superior do número total de pull requests aceitas junto com um gráfico scatter com todos os resultados.
 
-**RQ 03:** Para analisar se sistemas populares lançam releases com muita frequência, serão analisados o valor minimo, máximo, quartil inferior, média e quartil superior do número total de releases junto com um gráfico scatter com todos os resultados.
+**RQ 03:** Para analisar se sistemas populares lançam releases com muita frequência, serão analisados o valor mínimo, máximo, quartil inferior, média e quartil superior do número total de releases junto com um gráfico scatter com todos os resultados.
 
-**RQ 04:**
+**RQ 04:** Para analisar se sistemas populares lançam releases com muita frequência, serão analisados a data mais recente, a data mais antiga, o quartil inferior, superior e a mediana do ano da útlima atualização dos repositórios.
 
 **RQ 05:** Para analisar se sistemas populares utilizam linguagens populares, serão analisados as 5 linguagens mais usadas e ver que posição elas ocupam no ranking de linguagens mais populares de acordo com a pesquisa da jetbrains encontrada nesse link: https://blog.jetbrains.com/research/2024/05/developer-ecosystem-survey-insights-a-comparative-look-at-students-and-professionals/#programming-languages
 
@@ -47,7 +47,7 @@ Este relatório busca explorar as características dos projetos open-source mais
 
 **RQ 03:** Os resultados mostram que há uma grande variação na frequência com que os sistemas populares lançam releases. O número total de releases varia de 0 a 1000, com o quartil inferior sendo 0, a média sendo 17 e quartil superior de 60 releases.
 
-**RQ 04:**
+**RQ 04:** Os resultados mostram que há uma certa variação na ultima vez que os repositórios, com o mais antigo sendo em 2014, entretanto, as atualizações mais recentes, a mediana e o quartil superior foram todas em 2024, com o quartil inferior sendo em dezembro de 2023. Vale mencionar ainda, que mais da metade dos sistemas receberam a ultima atualização com menos de 1 mês de diferença da coleta de dados
 
 **RQ 05:** Os resultados mostram que as 5 linguagens mais utilizadas pelos repositórios representam juntas 562 repositórios, sendo a primeira delas Python, com 147 repositórios e ocupa a primeira posição na lista de linguagens mais populares. A segunda é TypeScript com 135 repositórios, ocupando a nona posição da pesquisa. Terceira é C++ com 108 repositórios e ocupa sexto lugar na pesquisa. Quarta é o JavaScript com 102 repositórios e ocupa segundo lugar na pesquisa. Quinto é Go com 70 repositórios e ocupando décima terceira posição de linguagem mais popular
 
@@ -61,7 +61,7 @@ Este relatório busca explorar as características dos projetos open-source mais
 
 **RQ 03:** Em conclusão, enquanto alguns sistemas populares lançam um número muito alto de releases, outros não lançam nenhuma. Entretanto, a média e o quartil superior sugerem que sistemas populares podem lançar releases com uma frequência moderada. Em geral, a frequência de lançamentos realmente dependem mais da filosofia de gerenciamento do repositório
 
-**RQ 04:**
+**RQ 04:** Em conclusão, enquanto alguns sistemas estão a mais de 10 anos sem receber nenhuma atualização, a grande maioria recebeu atualização em menos de um ano, e mais da metade em menos de um mês, o que sugere que sistemas populares estão constantemente fazendo atualizações e mantendo seus sistemas ativos.
 
 **RQ 05:** Em conclusão, a popularidade de uma linguagem de programação tende a influenciar a popularidade de um repositório. Linguagens populares têm grandes comunidades de desenvolvedores, ampla documentação e suporte, o que facilita o desenvolvimento e a manutenção do software.
 

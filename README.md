@@ -37,7 +37,7 @@ Este relatório busca explorar as características dos projetos open-source mais
 
 **RQ 05:** Para analisar se sistemas populares utilizam linguagens populares, serão analisados as 5 linguagens mais usadas e ver que posição elas ocupam no ranking de linguagens mais populares de acordo com a pesquisa da jetbrains encontrada nesse link: https://blog.jetbrains.com/research/2024/05/developer-ecosystem-survey-insights-a-comparative-look-at-students-and-professionals/#programming-languages
 
-**RQ 06:**
+**RQ 06:** Para analisar se sistemas populares tem alto percentual de issues fechadas, serão analisados o valor mínimo, máximo, quartil inferior, mediana e quartil superior da porcentagem de issues fechadas em relação ao total de issues dos repositórios.
 
 # Resultados
 
@@ -51,7 +51,7 @@ Este relatório busca explorar as características dos projetos open-source mais
 
 **RQ 05:** Os resultados mostram que as 5 linguagens mais utilizadas pelos repositórios representam juntas 562 repositórios, sendo a primeira delas Python, com 147 repositórios e ocupa a primeira posição na lista de linguagens mais populares. A segunda é TypeScript com 135 repositórios, ocupando a nona posição da pesquisa. Terceira é C++ com 108 repositórios e ocupa sexto lugar na pesquisa. Quarta é o JavaScript com 102 repositórios e ocupa segundo lugar na pesquisa. Quinto é Go com 70 repositórios e ocupando décima terceira posição de linguagem mais popular
 
-**RQ 06:**
+**RQ 06:** Os resultados mostram que há uma certa variação na porcentagem de isseus fechadas nos sistemas populares, com o número variando de 0% a 100%, com o quartil inferior sendo de 48,57%, a mediana sendo 81,57% e o quartil superior sendo de 95,52% de issues fechadas.
 
 # Discussão sobre hipótese e resultado
 
@@ -65,7 +65,7 @@ Este relatório busca explorar as características dos projetos open-source mais
 
 **RQ 05:** Em conclusão, a popularidade de uma linguagem de programação tende a influenciar a popularidade de um repositório. Linguagens populares têm grandes comunidades de desenvolvedores, ampla documentação e suporte, o que facilita o desenvolvimento e a manutenção do software.
 
-**RQ 06:**
+**RQ 06:** Em conclusão, enquanto alguns sistemas possuem uma taxa de issues fechadas relativamente baixa, podendo chegar a 0%, os dados mostram que sistemas populares tendem a ter um alto percentual de issues fechadas.
 
 # Executando o script para coletar dados
 ## Instalando o Python

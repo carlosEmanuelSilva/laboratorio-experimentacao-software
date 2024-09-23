@@ -7,6 +7,13 @@ Portanto, com o experimento desenvolvido durate esse segundo laboratório, prete
 
 ## Hipóteses
 
+RQ 01: Repositórios mais populares tendem a ter uma maior qualidade de código, pois um alto número de estrelas pode indicar um alto numero de desenvolvedores envolvidos no projeto, levando a um código mais revisado e refinado.
+
+RQ 02: Repositórios mais maduros podem apresentar características de qualidade superiores em comparação aos repositórios mais novos, pois tiveram mais tempo para refinar e melhorar seu código.
+
+RQ 03: Repositórios com alta atividad podem ter uma melhor qualidade de código, pois isso pode indicar que os desenvolvedores estão constantemente trabalhando para melhorar e atualizar o sistema.
+
+RQ 04: O tamanho do repositório pode não ter uma relação direta com a qualidade do código. Enquanto repositórios maiores podem ter mais complexidade e potencialmente mais problemas, eles também podem ter mais recursos e uma equipe de desenvolvimento maior, o que poderia levar a um código de maior qualidade.
 
 ## Metodologia
 

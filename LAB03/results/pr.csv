@@ -1,0 +1,201 @@
+number,changedFiles,additions,deletions,createdAt,closedAt,mergedAt,body,participants,totalCommentsCount
+{2},{2},{100},{1},{'2014-12-24T20:43:10Z'},{'2014-12-27T06:16:17Z'},{'2014-12-27T06:16:17Z'},{''},{3},{2}
+{5},{10},{122},{106},{'2014-12-31T04:48:02Z'},{'2014-12-31T04:48:08Z'},{'2014-12-31T04:48:08Z'},{''},{1},{0}
+{7},{2},{51},{42},{'2014-12-31T05:35:50Z'},{'2015-01-20T17:29:39Z'},{None},{'Refactor passport to conform to jshint settings.\nRemove html extension on FCC links in challenge \n\nfixes https://github.com/FreeCodeCamp/freecodecamp/issues/6 \n'},{1},{0}
+{8},{38},{61466},{34},{'2015-01-06T07:31:40Z'},{'2015-01-06T07:33:03Z'},{'2015-01-06T07:33:03Z'},{''},{2},{0}
+{9},{76},{64419},{3594},{'2015-01-09T06:34:30Z'},{'2015-01-09T06:34:47Z'},{'2015-01-09T06:34:47Z'},{''},{2},{0}
+{10},{1},{2},{2},{'2015-01-09T15:55:49Z'},{'2015-01-09T18:58:45Z'},{'2015-01-09T18:58:45Z'},"{""I know I entered massage therapist as most recent job on the initial form,\nbut that was two years ago. Plus, afterwards, I realized that writing a book for\na publisher counts as most recent job (I forget about freelance stuff sometimes)!\nAlso removed part about Hypercard because I figure most code campers\nwon't know what I was referring to.\n""}",{2},{0}
+{12},{1},{2},{2},{'2015-01-09T20:25:01Z'},{'2015-01-10T04:33:39Z'},{None},"{""The profile picture pulled from twitter with `profile_image_url_https` will have `_normal.png` attached to the end of the url. According to the [Twitter Docs](https://dev.twitter.com/overview/general/user-profile-images-and-banners), normal = 48x48px (too small for the new bio pages).\n\nI removed the last 11 characters ('_normal.png') and then added the `.png` back. I'm sure there is more elegant way to do it.\n""}",{2},{1}
+{13},{10},{461},{433},{'2015-01-10T03:10:26Z'},{'2015-01-10T04:31:13Z'},{None},{'Fixes email signup/signin issues and angularizes the email signup form. Also adds unique username check to profile.jade.\n'},{1},{0}
+{14},{10},{461},{433},{'2015-01-10T04:32:22Z'},{'2015-01-10T04:33:57Z'},{'2015-01-10T04:33:57Z'},"{'Solve email login issues, angularize forms to extreme measures, prettify and give feedback in real time.\n'}",{2},{0}
+{16},{1},{3},{3},{'2015-01-10T05:23:28Z'},{'2015-01-10T18:56:01Z'},{'2015-01-10T18:56:01Z'},{''},{2},{1}
+{1},{1},{1},{1},{'2013-10-11T16:55:40Z'},{'2013-10-11T16:57:25Z'},{'2013-10-11T16:57:25Z'},"{""I'm not 100% sure that this is the same book, but I tried to find something I thought was similar.\n""}",{2},{1}
+{2},{1},{0},{2},{'2013-10-11T16:59:00Z'},{'2013-10-11T17:00:29Z'},{'2013-10-11T17:00:29Z'},"{""the django book is extremely out of date. I'll find some better free django books but until then removal is best\n""}",{2},{1}
+{3},{1},{1},{1},{'2013-10-11T17:15:36Z'},{'2013-10-11T17:17:32Z'},{'2013-10-11T17:17:32Z'},{'Fixed .NET (C# / VB / Nemerle / Visual Studio) anchor link.\n'},{2},{0}
+{4},{1},{1},{0},{'2013-10-11T17:37:14Z'},{'2013-10-11T17:40:02Z'},{'2013-10-11T17:40:02Z'},"{'Added my published book ""97 Things Every Programmer Should Know - Extended"" from LeanPub, which is available for free download.\n'}",{2},{1}
+{6},{1},{1},{0},{'2013-10-11T17:42:29Z'},{'2013-10-11T17:43:23Z'},{'2013-10-11T17:43:23Z'},{''},{2},{0}
+{7},{1},{1},{0},{'2013-10-11T17:48:01Z'},{'2013-10-11T17:48:45Z'},{'2013-10-11T17:48:45Z'},{''},{2},{0}
+{8},{1},{2},{2},{'2013-10-11T18:06:48Z'},{'2013-10-11T18:10:19Z'},{'2013-10-11T18:10:19Z'},{''},{2},{0}
+{9},{1},{2},{2},{'2013-10-11T18:08:24Z'},{'2013-10-11T18:10:03Z'},{'2013-10-11T18:10:03Z'},"{'An open sourced book written by Dr. Charles Severance, professor at MichUni. The book is available in every possible format, a really great read!\n'}",{2},{0}
+{10},{1},{3},{3},{'2013-10-11T18:11:33Z'},{'2013-10-11T18:14:59Z'},{'2013-10-11T18:14:59Z'},{'Included free book by O’Reilly Media to JavaScript.\n'},{2},{0}
+{11},{1},{7},{3},{'2013-10-11T18:16:06Z'},{'2013-10-11T18:23:16Z'},{'2013-10-11T18:23:16Z'},{''},{2},{0}
+{1},{1},{1},{0},{'2014-07-12T03:44:30Z'},{'2014-07-12T08:10:00Z'},{'2014-07-12T08:10:00Z'},{''},{2},{0}
+{2},{1},{0},{1},{'2014-07-12T13:44:17Z'},{'2014-07-12T15:22:16Z'},{'2014-07-12T15:22:16Z'},"{'It looks like the author copy/pasted the awesome-go repo - removed some stuff and then replaced ""go"" with ""cobol"".\n'}",{2},{1}
+{3},{1},{1},{0},{'2014-07-12T14:42:52Z'},{'2014-07-12T15:22:51Z'},{'2014-07-12T15:22:51Z'},{''},{2},{0}
+{4},{1},{1},{0},{'2014-07-13T02:41:29Z'},{'2014-07-13T08:29:50Z'},{'2014-07-13T08:29:50Z'},{''},{2},{0}
+{6},{1},{1},{0},{'2014-07-16T13:19:12Z'},{'2014-07-18T21:41:21Z'},{'2014-07-18T21:41:21Z'},{''},{2},{0}
+{7},{1},{10},{8},{'2014-07-17T07:39:40Z'},{'2014-07-19T15:30:08Z'},{None},{''},{2},{1}
+{8},{1},{1},{0},{'2014-07-17T11:33:04Z'},{'2014-07-18T21:41:47Z'},{'2014-07-18T21:41:47Z'},{''},{2},{0}
+{9},{1},{1},{0},{'2014-07-17T13:42:50Z'},{'2014-07-19T15:26:48Z'},{None},{''},{2},{2}
+{10},{1},{1},{0},{'2014-07-17T14:02:51Z'},{'2014-07-19T15:27:28Z'},{'2014-07-19T15:27:28Z'},{''},{3},{1}
+{11},{1},{1},{0},{'2014-07-20T05:17:37Z'},{'2014-07-24T15:59:38Z'},{None},{''},{2},{3}
+{1},{1},{52},{9},{'2016-03-21T01:02:35Z'},{'2016-03-21T02:22:14Z'},{'2016-03-21T02:22:14Z'},"{""Initial pass at adding categories and additional API's!\n""}",{2},{0}
+{2},{1},{2},{0},{'2016-03-21T01:08:47Z'},{'2016-03-21T14:01:32Z'},{'2016-03-21T14:01:32Z'},{''},{2},{2}
+{3},{1},{1},{0},{'2016-03-21T01:18:18Z'},{'2016-03-21T15:40:39Z'},{'2016-03-21T15:40:39Z'},{'OpenWeatherMap is a very useful weather data service! \n'},{2},{4}
+{4},{0},{0},{0},{'2016-03-21T06:21:03Z'},{'2016-03-22T19:04:33Z'},{None},{''},{3},{1}
+{6},{1},{15},{10},{'2016-03-21T08:14:30Z'},{'2016-03-21T09:53:57Z'},{'2016-03-21T09:53:57Z'},{''},{2},{0}
+{7},{1},{5},{0},{'2016-03-21T12:45:55Z'},{'2016-03-21T12:46:59Z'},{'2016-03-21T12:46:59Z'},{''},{2},{0}
+{8},{1},{1},{0},{'2016-03-21T12:54:54Z'},{'2016-03-21T13:05:51Z'},{'2016-03-21T13:05:51Z'},{'Added the [Belgian transport API](https://hello.irail.be/api/)\n'},{2},{2}
+{9},{1},{1},{0},{'2016-03-21T13:46:31Z'},{'2016-03-21T13:48:09Z'},{'2016-03-21T13:48:08Z'},{''},{2},{2}
+{10},{1},{1},{0},{'2016-03-21T13:52:17Z'},{'2016-03-21T14:00:50Z'},{'2016-03-21T14:00:50Z'},{''},{2},{2}
+{12},{1},{1},{0},{'2016-03-21T15:11:39Z'},{'2016-03-21T15:15:19Z'},{'2016-03-21T15:15:19Z'},{''},{2},{1}
+{1},{1},{661},{661},{'2016-10-05T06:30:46Z'},{'2016-10-05T06:31:02Z'},{None},{'Jeff Dean Video\n'},{2},{2}
+{2},{1},{1},{1},{'2016-10-05T19:24:50Z'},{'2016-10-05T19:25:45Z'},{None},{'yah!\n'},{1},{0}
+{3},{1},{1},{1},{'2016-10-06T10:08:17Z'},{'2016-10-06T16:40:31Z'},{'2016-10-06T16:40:31Z'},{''},{3},{0}
+{4},{1},{1},{1},{'2016-10-06T14:08:10Z'},{'2016-10-06T16:42:10Z'},{'2016-10-06T16:42:10Z'},"{'This pull-request fixes bug in the Markdown parser used by GitHub to translate `[x]` into HTML checkboxes, the way it is currently written makes the transpiler believe that the text in between parenthesis is actually part of a Markdown link with this syntax `[title](href)` which makes me believe that the parser is taking `/\\[x\\][^(]+\\([^)]+\\)/` _(notice the pattern in between the braces and the parenthesis)_.\n\nSo instead of this:\n- [x] _(very dated)_ http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html\n\n... it is rendering this:\n- [x](very dated) http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html\n'}",{2},{0}
+{6},{1},{21},{0},{'2016-10-06T15:49:06Z'},{'2016-10-06T21:20:55Z'},{None},{''},{3},{1}
+{9},{1},{87},{102},{'2016-10-06T19:24:59Z'},{'2016-10-06T21:25:38Z'},{'2016-10-06T21:25:38Z'},{'Improving readability and making a cleaner template.\nIf you agree with the changes I can follow finishing the file.\n'},{3},{5}
+{10},{1},{325},{338},{'2016-10-06T23:45:03Z'},{'2016-10-07T00:09:59Z'},{'2016-10-07T00:09:59Z'},"{""Updating readability up to L1007.\nI hope I didn't break any link with a typo.\n""}",{2},{0}
+{11},{1},{4},{4},{'2016-10-07T00:45:34Z'},{'2016-10-07T01:10:12Z'},{'2016-10-07T01:10:12Z'},{'Oops.\n'},{2},{0}
+{12},{1},{325},{376},{'2016-10-07T02:35:37Z'},{'2016-10-07T03:05:00Z'},{'2016-10-07T03:05:00Z'},"{'Done. :)\nAgain, I hope nothing was broken by some typo.\n'}",{2},{5}
+{14},{1},{19},{19},{'2016-10-07T07:04:16Z'},{'2016-10-07T17:29:59Z'},{'2016-10-07T17:29:59Z'},{'I reviewed the entire file more cautiously and I think those were the only typos.\n'},{2},{0}
+{4},{1},{22},{3},{'2018-05-10T10:35:14Z'},{'2018-05-11T08:27:20Z'},{None},"{'Add a section for how to create a demoscene demo. Some of the links are not exactly tutorials, but IMO, neccessary pointers and introductions that are neccessary to get an idea about what a demoscene demo is, for uninitiated developers.'}",{2},{3}
+{6},{1},{1},{1},{'2018-05-10T19:57:41Z'},{'2018-05-10T20:12:11Z'},{'2018-05-10T20:12:11Z'},{''},{2},{1}
+{7},{1},{1},{0},{'2018-05-11T02:27:06Z'},{'2018-05-11T07:17:47Z'},{'2018-05-11T07:17:47Z'},{''},{2},{1}
+{8},{1},{1},{0},{'2018-05-11T02:35:10Z'},{'2018-05-11T07:37:35Z'},{None},{''},{2},{1}
+{10},{1},{1},{0},{'2018-05-11T10:08:57Z'},{'2018-05-12T07:55:36Z'},{'2018-05-12T07:55:36Z'},"{""This is a collection of three blog posts, but I've linked to only Part I in this PR and readers can follow on from there (links to consecutive parts are available at the end of each blog post).""}",{2},{3}
+{14},{1},{1},{0},{'2018-05-11T16:52:43Z'},{'2018-05-12T07:58:43Z'},{'2018-05-12T07:58:43Z'},{''},{2},{1}
+{16},{1},{1},{0},{'2018-05-12T08:21:04Z'},{'2018-05-13T10:53:26Z'},{None},{''},{2},{2}
+{19},{1},{1},{1},{'2018-05-12T22:40:14Z'},{'2018-05-13T06:52:37Z'},{'2018-05-13T06:52:37Z'},{''},{2},{1}
+{21},{1},{3},{2},{'2018-05-12T23:21:23Z'},{'2018-05-13T06:50:27Z'},{'2018-05-13T06:50:27Z'},{''},{2},{1}
+{23},{1},{1},{0},{'2018-05-13T02:49:07Z'},{'2018-05-13T06:56:34Z'},{None},{'Add link to [Parser Combinator](https://github.com/gosukiwi/parser-combinator) library for Ruby'},{2},{1}
+{7},{1},{0},{0},{'2017-03-16T21:13:35Z'},{'2017-03-17T06:14:47Z'},{'2017-03-17T06:14:47Z'},"{'For example:\r\n- Frontend -> Front-end\r\n- PHP-7 -> PHP 7\r\n- Node JS -> Node.js\r\n- NPM -> npm\r\n\r\nAnd so on, in general, the names have been renamed in such a way as they are used officially.\r\n\r\nMaybe it does not really matter, but still I want to use the correct technology names, so that there is no confusion'}",{2},{1}
+{14},{2},{6},{6},{'2017-03-17T13:50:25Z'},{'2017-03-18T17:57:49Z'},{None},{'Really like what you did. I added a few things that I think are important for devs to keep an eye on.'},{4},{6}
+{22},{1},{0},{0},{'2017-03-19T07:29:09Z'},{'2017-03-23T04:44:01Z'},{'2017-03-23T04:44:01Z'},{''},{2},{1}
+{25},{2},{2},{2},{'2017-03-19T13:32:51Z'},{'2017-03-23T05:14:20Z'},{None},{'Related: #12 #24 \r\nAdds:\r\n\r\n- [x] Xdebug to PHP (Backend)\r\n- [x] Byebug to Ruby (Backend)\r\n- [x] Material Design to CSS Frameworks (Frontend)'},{4},{2}
+{35},{2},{5},{5},{'2017-03-20T18:15:12Z'},{'2017-03-20T18:43:01Z'},{None},{'Add loopback.io to javascript section and Zend to PHP 7 section'},{2},{1}
+{45},{2},{1},{1},{'2017-03-21T20:14:54Z'},{'2017-03-23T05:21:19Z'},{None},{'I added New Relic to the list of monitoring tools. Is there a better way to monitor your infrastructure?'},{4},{5}
+{48},{2},{1},{1},{'2017-03-22T06:03:50Z'},{'2017-03-23T05:19:21Z'},{None},{'expanding .net to asp.net and asp.net core'},{3},{2}
+{59},{1},{1},{1},{'2017-03-23T17:14:29Z'},{'2017-03-26T04:00:20Z'},{None},{'Added Zend Framework as an option under PHP frameworks.\r\n\r\nCheers! :)'},{4},{3}
+{61},{2},{2},{2},{'2017-03-24T00:58:44Z'},{'2017-03-26T03:56:11Z'},{'2017-03-26T03:56:11Z'},{'As proposed in issue #32'},{2},{1}
+{63},{1},{6},{0},{'2017-03-24T02:25:37Z'},{'2017-03-24T07:13:00Z'},{None},{'Video discusses the current trends of web-development technologies and answers an important question - What to be learned in 2017 .'},{2},{1}
+{5},{8},{403},{403},{'2017-03-09T03:19:17Z'},{'2017-03-09T03:20:24Z'},{'2017-03-09T03:20:24Z'},{''},{1},{0}
+{8},{1},{2},{2},{'2017-03-09T04:30:26Z'},{'2017-03-09T04:31:09Z'},{'2017-03-09T04:31:09Z'},{''},{1},{0}
+{9},{1},{2},{0},{'2017-03-09T10:22:26Z'},{'2017-03-10T00:40:13Z'},{'2017-03-10T00:40:13Z'},{''},{3},{4}
+{10},{1},{2},{2},{'2017-03-09T10:50:34Z'},{'2017-03-10T00:36:12Z'},{'2017-03-10T00:36:12Z'},"{'A small fix to change to drop the ""a"" in ""solving a many interview questions"".'}",{2},{1}
+{11},{1},{1},{1},{'2017-03-09T14:21:29Z'},{'2017-03-10T00:37:40Z'},{'2017-03-10T00:37:40Z'},{''},{2},{1}
+{13},{1},{1},{1},{'2017-03-10T04:30:56Z'},{'2017-03-11T02:07:51Z'},{'2017-03-11T02:07:51Z'},{'#12 '},{2},{1}
+{14},{1},{8},{8},{'2017-03-10T07:53:56Z'},{'2017-03-11T02:06:35Z'},{'2017-03-11T02:06:35Z'},{''},{3},{2}
+{17},{1},{1},{1},{'2017-03-11T16:47:20Z'},{'2017-03-11T16:59:59Z'},{'2017-03-11T16:59:59Z'},{'Small typo in the Remote Procedure Call section.\r\ns/definied/defined'},{2},{2}
+{18},{1},{1},{0},{'2017-03-11T19:34:19Z'},{'2017-03-12T22:17:14Z'},{None},{''},{2},{3}
+{19},{1},{3},{3},{'2017-03-12T21:14:01Z'},{'2017-03-12T21:17:30Z'},{'2017-03-12T21:17:30Z'},{''},{1},{0}
+{31},{1},{1},{1},{'2019-03-26T15:30:40Z'},{'2019-03-27T01:35:27Z'},{'2019-03-27T01:35:27Z'},{'Fix #30.'},{2},{0}
+{32},{1},{1},{1},{'2019-03-26T18:03:25Z'},{'2019-03-27T01:35:12Z'},{'2019-03-27T01:35:11Z'},{'Add `<kbd>` tag for the *F* in the `README.md`.\r\n\r\nBecause of the *F* this `README.md` represents a user input from a keyboard.\r\n\r\n<https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd> '},{2},{0}
+{56},{1},{11},{11},{'2019-03-27T04:26:55Z'},{'2019-03-27T04:29:04Z'},{'2019-03-27T04:29:04Z'},{'There should be whitespaces between the western characters and Chinese characters.'},{2},{0}
+{110},{1},{13},{4},{'2019-03-27T06:21:02Z'},{'2019-03-27T08:04:40Z'},{'2019-03-27T08:04:40Z'},{''},{4},{3}
+{124},{1},{1},{1},{'2019-03-27T06:26:32Z'},{'2019-03-27T06:28:16Z'},{'2019-03-27T06:28:16Z'},{''},{2},{0}
+{225},{2},{20},{0},{'2019-03-27T07:01:25Z'},{'2019-03-27T07:55:45Z'},{'2019-03-27T07:55:45Z'},"{'英文不是很好，先有个初版，法律部分是找的中国商务部2007年对外发布的英文版劳动法的第41条 [英文版本](http://english.mofcom.gov.cn/aarticle/policyrelease/internationalpolicy/200703/20070304475283.html,)。'}",{3},{2}
+{242},{1},{16},{0},{'2019-03-27T07:07:12Z'},{'2019-03-28T02:53:55Z'},{None},{'add English version'},{4},{4}
+{276},{1},{1},{0},{'2019-03-27T07:19:08Z'},{'2019-03-27T15:50:51Z'},{None},{'网址： [https://996.icu/#/zh_CN](https://996.icu/#/zh_CN)'},{2},{0}
+{282},{1},{4},{0},{'2019-03-27T07:20:42Z'},{'2019-03-27T15:50:09Z'},{None},{'website'},{2},{0}
+{324},{1},{78},{0},{'2019-03-27T07:35:37Z'},{'2019-03-27T15:47:19Z'},{None},{'其实最好应该再加一个俄罗斯文版本的国际歌歌词。'},{6},{5}
+{1},{24},{241},{79},{'2013-05-29T20:20:53Z'},{'2013-06-03T17:58:02Z'},{'2013-06-03T17:58:02Z'},"{'This is not blocking the initial launch, so feel free to put it on the back-burner for now.\n\nThe Jasmine test harness still runs in the parent window and reports to PhantomJS via `window.callPhantom`, but each test `<iframe>` has its own copy of `react-test.js` and each individual test module is required in the global context of a separate `<iframe>`.\n\nThis gives us a significant approximation of the benefits of mocking, at least in terms of isolating tests from one another.\n\ncr @jeffmo @zpao\n'}",{3},{8}
+{2},{1},{2},{2},{'2013-05-29T20:31:39Z'},{'2013-05-29T20:32:25Z'},{'2013-05-29T20:32:25Z'},{'The buttons on the index were pointing at wrong paths.\n'},{2},{1}
+{3},{2},{2},{2},{'2013-05-29T20:37:35Z'},{'2013-05-29T20:39:35Z'},{'2013-05-29T20:39:35Z'},{''},{2},{0}
+{4},{1},{100},{0},{'2013-05-29T20:49:58Z'},{'2013-05-29T20:50:15Z'},{'2013-05-29T20:50:15Z'},{'Added some additional examples to explain common usage patterns for custom events.\n'},{2},{0}
+{5},{1},{2},{2},{'2013-05-29T20:52:18Z'},{'2013-05-29T20:53:10Z'},{'2013-05-29T20:53:10Z'},{''},{2},{0}
+{6},{1},{69},{23},{'2013-05-29T20:53:41Z'},{'2013-05-29T20:54:16Z'},{'2013-05-29T20:54:16Z'},{''},{2},{0}
+{7},{1},{1},{1},{'2013-05-29T20:55:01Z'},{'2013-05-29T21:01:26Z'},{'2013-05-29T21:01:26Z'},{'Whenever you have a spare moment =]\n'},{2},{0}
+{8},{1},{8},{0},{'2013-05-29T21:05:57Z'},{'2013-05-29T21:06:45Z'},{'2013-05-29T21:06:45Z'},{''},{2},{0}
+{9},{1},{1},{1},{'2013-05-29T23:23:53Z'},{'2013-05-29T23:40:09Z'},{'2013-05-29T23:40:09Z'},{''},{2},{3}
+{11},{2},{2},{2},{'2013-05-30T04:23:33Z'},{'2013-05-30T12:14:18Z'},{'2013-05-30T12:14:18Z'},"{""I messed this up pretty badly and didn't include react _at all_.\n\nTest Plan: npm pack && npm install <packed.tgz>, then require('react-tools')`\n\nFixes #10\n""}",{2},{0}
+{2},{2},{100},{1},{'2014-12-24T20:43:10Z'},{'2014-12-27T06:16:17Z'},{'2014-12-27T06:16:17Z'},{''},{3},{2}
+{5},{10},{122},{106},{'2014-12-31T04:48:02Z'},{'2014-12-31T04:48:08Z'},{'2014-12-31T04:48:08Z'},{''},{1},{0}
+{7},{2},{51},{42},{'2014-12-31T05:35:50Z'},{'2015-01-20T17:29:39Z'},{None},{'Refactor passport to conform to jshint settings.\nRemove html extension on FCC links in challenge \n\nfixes https://github.com/FreeCodeCamp/freecodecamp/issues/6 \n'},{1},{0}
+{8},{38},{61466},{34},{'2015-01-06T07:31:40Z'},{'2015-01-06T07:33:03Z'},{'2015-01-06T07:33:03Z'},{''},{2},{0}
+{9},{76},{64419},{3594},{'2015-01-09T06:34:30Z'},{'2015-01-09T06:34:47Z'},{'2015-01-09T06:34:47Z'},{''},{2},{0}
+{10},{1},{2},{2},{'2015-01-09T15:55:49Z'},{'2015-01-09T18:58:45Z'},{'2015-01-09T18:58:45Z'},"{""I know I entered massage therapist as most recent job on the initial form,\nbut that was two years ago. Plus, afterwards, I realized that writing a book for\na publisher counts as most recent job (I forget about freelance stuff sometimes)!\nAlso removed part about Hypercard because I figure most code campers\nwon't know what I was referring to.\n""}",{2},{0}
+{12},{1},{2},{2},{'2015-01-09T20:25:01Z'},{'2015-01-10T04:33:39Z'},{None},"{""The profile picture pulled from twitter with `profile_image_url_https` will have `_normal.png` attached to the end of the url. According to the [Twitter Docs](https://dev.twitter.com/overview/general/user-profile-images-and-banners), normal = 48x48px (too small for the new bio pages).\n\nI removed the last 11 characters ('_normal.png') and then added the `.png` back. I'm sure there is more elegant way to do it.\n""}",{2},{1}
+{13},{10},{461},{433},{'2015-01-10T03:10:26Z'},{'2015-01-10T04:31:13Z'},{None},{'Fixes email signup/signin issues and angularizes the email signup form. Also adds unique username check to profile.jade.\n'},{1},{0}
+{14},{10},{461},{433},{'2015-01-10T04:32:22Z'},{'2015-01-10T04:33:57Z'},{'2015-01-10T04:33:57Z'},"{'Solve email login issues, angularize forms to extreme measures, prettify and give feedback in real time.\n'}",{2},{0}
+{16},{1},{3},{3},{'2015-01-10T05:23:28Z'},{'2015-01-10T18:56:01Z'},{'2015-01-10T18:56:01Z'},{''},{2},{1}
+{1},{1},{1},{1},{'2013-10-11T16:55:40Z'},{'2013-10-11T16:57:25Z'},{'2013-10-11T16:57:25Z'},"{""I'm not 100% sure that this is the same book, but I tried to find something I thought was similar.\n""}",{2},{1}
+{2},{1},{0},{2},{'2013-10-11T16:59:00Z'},{'2013-10-11T17:00:29Z'},{'2013-10-11T17:00:29Z'},"{""the django book is extremely out of date. I'll find some better free django books but until then removal is best\n""}",{2},{1}
+{3},{1},{1},{1},{'2013-10-11T17:15:36Z'},{'2013-10-11T17:17:32Z'},{'2013-10-11T17:17:32Z'},{'Fixed .NET (C# / VB / Nemerle / Visual Studio) anchor link.\n'},{2},{0}
+{4},{1},{1},{0},{'2013-10-11T17:37:14Z'},{'2013-10-11T17:40:02Z'},{'2013-10-11T17:40:02Z'},"{'Added my published book ""97 Things Every Programmer Should Know - Extended"" from LeanPub, which is available for free download.\n'}",{2},{1}
+{6},{1},{1},{0},{'2013-10-11T17:42:29Z'},{'2013-10-11T17:43:23Z'},{'2013-10-11T17:43:23Z'},{''},{2},{0}
+{7},{1},{1},{0},{'2013-10-11T17:48:01Z'},{'2013-10-11T17:48:45Z'},{'2013-10-11T17:48:45Z'},{''},{2},{0}
+{8},{1},{2},{2},{'2013-10-11T18:06:48Z'},{'2013-10-11T18:10:19Z'},{'2013-10-11T18:10:19Z'},{''},{2},{0}
+{9},{1},{2},{2},{'2013-10-11T18:08:24Z'},{'2013-10-11T18:10:03Z'},{'2013-10-11T18:10:03Z'},"{'An open sourced book written by Dr. Charles Severance, professor at MichUni. The book is available in every possible format, a really great read!\n'}",{2},{0}
+{10},{1},{3},{3},{'2013-10-11T18:11:33Z'},{'2013-10-11T18:14:59Z'},{'2013-10-11T18:14:59Z'},{'Included free book by O’Reilly Media to JavaScript.\n'},{2},{0}
+{11},{1},{7},{3},{'2013-10-11T18:16:06Z'},{'2013-10-11T18:23:16Z'},{'2013-10-11T18:23:16Z'},{''},{2},{0}
+{1},{1},{1},{0},{'2014-07-12T03:44:30Z'},{'2014-07-12T08:10:00Z'},{'2014-07-12T08:10:00Z'},{''},{2},{0}
+{2},{1},{0},{1},{'2014-07-12T13:44:17Z'},{'2014-07-12T15:22:16Z'},{'2014-07-12T15:22:16Z'},"{'It looks like the author copy/pasted the awesome-go repo - removed some stuff and then replaced ""go"" with ""cobol"".\n'}",{2},{1}
+{3},{1},{1},{0},{'2014-07-12T14:42:52Z'},{'2014-07-12T15:22:51Z'},{'2014-07-12T15:22:51Z'},{''},{2},{0}
+{4},{1},{1},{0},{'2014-07-13T02:41:29Z'},{'2014-07-13T08:29:50Z'},{'2014-07-13T08:29:50Z'},{''},{2},{0}
+{6},{1},{1},{0},{'2014-07-16T13:19:12Z'},{'2014-07-18T21:41:21Z'},{'2014-07-18T21:41:21Z'},{''},{2},{0}
+{7},{1},{10},{8},{'2014-07-17T07:39:40Z'},{'2014-07-19T15:30:08Z'},{None},{''},{2},{1}
+{8},{1},{1},{0},{'2014-07-17T11:33:04Z'},{'2014-07-18T21:41:47Z'},{'2014-07-18T21:41:47Z'},{''},{2},{0}
+{9},{1},{1},{0},{'2014-07-17T13:42:50Z'},{'2014-07-19T15:26:48Z'},{None},{''},{2},{2}
+{10},{1},{1},{0},{'2014-07-17T14:02:51Z'},{'2014-07-19T15:27:28Z'},{'2014-07-19T15:27:28Z'},{''},{3},{1}
+{11},{1},{1},{0},{'2014-07-20T05:17:37Z'},{'2014-07-24T15:59:38Z'},{None},{''},{2},{3}
+{1},{1},{52},{9},{'2016-03-21T01:02:35Z'},{'2016-03-21T02:22:14Z'},{'2016-03-21T02:22:14Z'},"{""Initial pass at adding categories and additional API's!\n""}",{2},{0}
+{2},{1},{2},{0},{'2016-03-21T01:08:47Z'},{'2016-03-21T14:01:32Z'},{'2016-03-21T14:01:32Z'},{''},{2},{2}
+{3},{1},{1},{0},{'2016-03-21T01:18:18Z'},{'2016-03-21T15:40:39Z'},{'2016-03-21T15:40:39Z'},{'OpenWeatherMap is a very useful weather data service! \n'},{2},{4}
+{4},{0},{0},{0},{'2016-03-21T06:21:03Z'},{'2016-03-22T19:04:33Z'},{None},{''},{3},{1}
+{6},{1},{15},{10},{'2016-03-21T08:14:30Z'},{'2016-03-21T09:53:57Z'},{'2016-03-21T09:53:57Z'},{''},{2},{0}
+{7},{1},{5},{0},{'2016-03-21T12:45:55Z'},{'2016-03-21T12:46:59Z'},{'2016-03-21T12:46:59Z'},{''},{2},{0}
+{8},{1},{1},{0},{'2016-03-21T12:54:54Z'},{'2016-03-21T13:05:51Z'},{'2016-03-21T13:05:51Z'},{'Added the [Belgian transport API](https://hello.irail.be/api/)\n'},{2},{2}
+{9},{1},{1},{0},{'2016-03-21T13:46:31Z'},{'2016-03-21T13:48:09Z'},{'2016-03-21T13:48:08Z'},{''},{2},{2}
+{10},{1},{1},{0},{'2016-03-21T13:52:17Z'},{'2016-03-21T14:00:50Z'},{'2016-03-21T14:00:50Z'},{''},{2},{2}
+{12},{1},{1},{0},{'2016-03-21T15:11:39Z'},{'2016-03-21T15:15:19Z'},{'2016-03-21T15:15:19Z'},{''},{2},{1}
+{1},{1},{661},{661},{'2016-10-05T06:30:46Z'},{'2016-10-05T06:31:02Z'},{None},{'Jeff Dean Video\n'},{2},{2}
+{2},{1},{1},{1},{'2016-10-05T19:24:50Z'},{'2016-10-05T19:25:45Z'},{None},{'yah!\n'},{1},{0}
+{3},{1},{1},{1},{'2016-10-06T10:08:17Z'},{'2016-10-06T16:40:31Z'},{'2016-10-06T16:40:31Z'},{''},{3},{0}
+{4},{1},{1},{1},{'2016-10-06T14:08:10Z'},{'2016-10-06T16:42:10Z'},{'2016-10-06T16:42:10Z'},"{'This pull-request fixes bug in the Markdown parser used by GitHub to translate `[x]` into HTML checkboxes, the way it is currently written makes the transpiler believe that the text in between parenthesis is actually part of a Markdown link with this syntax `[title](href)` which makes me believe that the parser is taking `/\\[x\\][^(]+\\([^)]+\\)/` _(notice the pattern in between the braces and the parenthesis)_.\n\nSo instead of this:\n- [x] _(very dated)_ http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html\n\n... it is rendering this:\n- [x](very dated) http://dondodge.typepad.com/the_next_big_thing/2010/09/how-to-get-a-job-at-google-interview-questions-hiring-process.html\n'}",{2},{0}
+{6},{1},{21},{0},{'2016-10-06T15:49:06Z'},{'2016-10-06T21:20:55Z'},{None},{''},{3},{1}
+{9},{1},{87},{102},{'2016-10-06T19:24:59Z'},{'2016-10-06T21:25:38Z'},{'2016-10-06T21:25:38Z'},{'Improving readability and making a cleaner template.\nIf you agree with the changes I can follow finishing the file.\n'},{3},{5}
+{10},{1},{325},{338},{'2016-10-06T23:45:03Z'},{'2016-10-07T00:09:59Z'},{'2016-10-07T00:09:59Z'},"{""Updating readability up to L1007.\nI hope I didn't break any link with a typo.\n""}",{2},{0}
+{11},{1},{4},{4},{'2016-10-07T00:45:34Z'},{'2016-10-07T01:10:12Z'},{'2016-10-07T01:10:12Z'},{'Oops.\n'},{2},{0}
+{12},{1},{325},{376},{'2016-10-07T02:35:37Z'},{'2016-10-07T03:05:00Z'},{'2016-10-07T03:05:00Z'},"{'Done. :)\nAgain, I hope nothing was broken by some typo.\n'}",{2},{5}
+{14},{1},{19},{19},{'2016-10-07T07:04:16Z'},{'2016-10-07T17:29:59Z'},{'2016-10-07T17:29:59Z'},{'I reviewed the entire file more cautiously and I think those were the only typos.\n'},{2},{0}
+{4},{1},{22},{3},{'2018-05-10T10:35:14Z'},{'2018-05-11T08:27:20Z'},{None},"{'Add a section for how to create a demoscene demo. Some of the links are not exactly tutorials, but IMO, neccessary pointers and introductions that are neccessary to get an idea about what a demoscene demo is, for uninitiated developers.'}",{2},{3}
+{6},{1},{1},{1},{'2018-05-10T19:57:41Z'},{'2018-05-10T20:12:11Z'},{'2018-05-10T20:12:11Z'},{''},{2},{1}
+{7},{1},{1},{0},{'2018-05-11T02:27:06Z'},{'2018-05-11T07:17:47Z'},{'2018-05-11T07:17:47Z'},{''},{2},{1}
+{8},{1},{1},{0},{'2018-05-11T02:35:10Z'},{'2018-05-11T07:37:35Z'},{None},{''},{2},{1}
+{10},{1},{1},{0},{'2018-05-11T10:08:57Z'},{'2018-05-12T07:55:36Z'},{'2018-05-12T07:55:36Z'},"{""This is a collection of three blog posts, but I've linked to only Part I in this PR and readers can follow on from there (links to consecutive parts are available at the end of each blog post).""}",{2},{3}
+{14},{1},{1},{0},{'2018-05-11T16:52:43Z'},{'2018-05-12T07:58:43Z'},{'2018-05-12T07:58:43Z'},{''},{2},{1}
+{16},{1},{1},{0},{'2018-05-12T08:21:04Z'},{'2018-05-13T10:53:26Z'},{None},{''},{2},{2}
+{19},{1},{1},{1},{'2018-05-12T22:40:14Z'},{'2018-05-13T06:52:37Z'},{'2018-05-13T06:52:37Z'},{''},{2},{1}
+{21},{1},{3},{2},{'2018-05-12T23:21:23Z'},{'2018-05-13T06:50:27Z'},{'2018-05-13T06:50:27Z'},{''},{2},{1}
+{23},{1},{1},{0},{'2018-05-13T02:49:07Z'},{'2018-05-13T06:56:34Z'},{None},{'Add link to [Parser Combinator](https://github.com/gosukiwi/parser-combinator) library for Ruby'},{2},{1}
+{7},{1},{0},{0},{'2017-03-16T21:13:35Z'},{'2017-03-17T06:14:47Z'},{'2017-03-17T06:14:47Z'},"{'For example:\r\n- Frontend -> Front-end\r\n- PHP-7 -> PHP 7\r\n- Node JS -> Node.js\r\n- NPM -> npm\r\n\r\nAnd so on, in general, the names have been renamed in such a way as they are used officially.\r\n\r\nMaybe it does not really matter, but still I want to use the correct technology names, so that there is no confusion'}",{2},{1}
+{14},{2},{6},{6},{'2017-03-17T13:50:25Z'},{'2017-03-18T17:57:49Z'},{None},{'Really like what you did. I added a few things that I think are important for devs to keep an eye on.'},{4},{6}
+{22},{1},{0},{0},{'2017-03-19T07:29:09Z'},{'2017-03-23T04:44:01Z'},{'2017-03-23T04:44:01Z'},{''},{2},{1}
+{25},{2},{2},{2},{'2017-03-19T13:32:51Z'},{'2017-03-23T05:14:20Z'},{None},{'Related: #12 #24 \r\nAdds:\r\n\r\n- [x] Xdebug to PHP (Backend)\r\n- [x] Byebug to Ruby (Backend)\r\n- [x] Material Design to CSS Frameworks (Frontend)'},{4},{2}
+{35},{2},{5},{5},{'2017-03-20T18:15:12Z'},{'2017-03-20T18:43:01Z'},{None},{'Add loopback.io to javascript section and Zend to PHP 7 section'},{2},{1}
+{45},{2},{1},{1},{'2017-03-21T20:14:54Z'},{'2017-03-23T05:21:19Z'},{None},{'I added New Relic to the list of monitoring tools. Is there a better way to monitor your infrastructure?'},{4},{5}
+{48},{2},{1},{1},{'2017-03-22T06:03:50Z'},{'2017-03-23T05:19:21Z'},{None},{'expanding .net to asp.net and asp.net core'},{3},{2}
+{59},{1},{1},{1},{'2017-03-23T17:14:29Z'},{'2017-03-26T04:00:20Z'},{None},{'Added Zend Framework as an option under PHP frameworks.\r\n\r\nCheers! :)'},{4},{3}
+{61},{2},{2},{2},{'2017-03-24T00:58:44Z'},{'2017-03-26T03:56:11Z'},{'2017-03-26T03:56:11Z'},{'As proposed in issue #32'},{2},{1}
+{63},{1},{6},{0},{'2017-03-24T02:25:37Z'},{'2017-03-24T07:13:00Z'},{None},{'Video discusses the current trends of web-development technologies and answers an important question - What to be learned in 2017 .'},{2},{1}
+{5},{8},{403},{403},{'2017-03-09T03:19:17Z'},{'2017-03-09T03:20:24Z'},{'2017-03-09T03:20:24Z'},{''},{1},{0}
+{8},{1},{2},{2},{'2017-03-09T04:30:26Z'},{'2017-03-09T04:31:09Z'},{'2017-03-09T04:31:09Z'},{''},{1},{0}
+{9},{1},{2},{0},{'2017-03-09T10:22:26Z'},{'2017-03-10T00:40:13Z'},{'2017-03-10T00:40:13Z'},{''},{3},{4}
+{10},{1},{2},{2},{'2017-03-09T10:50:34Z'},{'2017-03-10T00:36:12Z'},{'2017-03-10T00:36:12Z'},"{'A small fix to change to drop the ""a"" in ""solving a many interview questions"".'}",{2},{1}
+{11},{1},{1},{1},{'2017-03-09T14:21:29Z'},{'2017-03-10T00:37:40Z'},{'2017-03-10T00:37:40Z'},{''},{2},{1}
+{13},{1},{1},{1},{'2017-03-10T04:30:56Z'},{'2017-03-11T02:07:51Z'},{'2017-03-11T02:07:51Z'},{'#12 '},{2},{1}
+{14},{1},{8},{8},{'2017-03-10T07:53:56Z'},{'2017-03-11T02:06:35Z'},{'2017-03-11T02:06:35Z'},{''},{3},{2}
+{17},{1},{1},{1},{'2017-03-11T16:47:20Z'},{'2017-03-11T16:59:59Z'},{'2017-03-11T16:59:59Z'},{'Small typo in the Remote Procedure Call section.\r\ns/definied/defined'},{2},{2}
+{18},{1},{1},{0},{'2017-03-11T19:34:19Z'},{'2017-03-12T22:17:14Z'},{None},{''},{2},{3}
+{19},{1},{3},{3},{'2017-03-12T21:14:01Z'},{'2017-03-12T21:17:30Z'},{'2017-03-12T21:17:30Z'},{''},{1},{0}
+{31},{1},{1},{1},{'2019-03-26T15:30:40Z'},{'2019-03-27T01:35:27Z'},{'2019-03-27T01:35:27Z'},{'Fix #30.'},{2},{0}
+{32},{1},{1},{1},{'2019-03-26T18:03:25Z'},{'2019-03-27T01:35:12Z'},{'2019-03-27T01:35:11Z'},{'Add `<kbd>` tag for the *F* in the `README.md`.\r\n\r\nBecause of the *F* this `README.md` represents a user input from a keyboard.\r\n\r\n<https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd> '},{2},{0}
+{56},{1},{11},{11},{'2019-03-27T04:26:55Z'},{'2019-03-27T04:29:04Z'},{'2019-03-27T04:29:04Z'},{'There should be whitespaces between the western characters and Chinese characters.'},{2},{0}
+{110},{1},{13},{4},{'2019-03-27T06:21:02Z'},{'2019-03-27T08:04:40Z'},{'2019-03-27T08:04:40Z'},{''},{4},{3}
+{124},{1},{1},{1},{'2019-03-27T06:26:32Z'},{'2019-03-27T06:28:16Z'},{'2019-03-27T06:28:16Z'},{''},{2},{0}
+{225},{2},{20},{0},{'2019-03-27T07:01:25Z'},{'2019-03-27T07:55:45Z'},{'2019-03-27T07:55:45Z'},"{'英文不是很好，先有个初版，法律部分是找的中国商务部2007年对外发布的英文版劳动法的第41条 [英文版本](http://english.mofcom.gov.cn/aarticle/policyrelease/internationalpolicy/200703/20070304475283.html,)。'}",{3},{2}
+{242},{1},{16},{0},{'2019-03-27T07:07:12Z'},{'2019-03-28T02:53:55Z'},{None},{'add English version'},{4},{4}
+{276},{1},{1},{0},{'2019-03-27T07:19:08Z'},{'2019-03-27T15:50:51Z'},{None},{'网址： [https://996.icu/#/zh_CN](https://996.icu/#/zh_CN)'},{2},{0}
+{282},{1},{4},{0},{'2019-03-27T07:20:42Z'},{'2019-03-27T15:50:09Z'},{None},{'website'},{2},{0}
+{324},{1},{78},{0},{'2019-03-27T07:35:37Z'},{'2019-03-27T15:47:19Z'},{None},{'其实最好应该再加一个俄罗斯文版本的国际歌歌词。'},{6},{5}
+{1},{24},{241},{79},{'2013-05-29T20:20:53Z'},{'2013-06-03T17:58:02Z'},{'2013-06-03T17:58:02Z'},"{'This is not blocking the initial launch, so feel free to put it on the back-burner for now.\n\nThe Jasmine test harness still runs in the parent window and reports to PhantomJS via `window.callPhantom`, but each test `<iframe>` has its own copy of `react-test.js` and each individual test module is required in the global context of a separate `<iframe>`.\n\nThis gives us a significant approximation of the benefits of mocking, at least in terms of isolating tests from one another.\n\ncr @jeffmo @zpao\n'}",{3},{8}
+{2},{1},{2},{2},{'2013-05-29T20:31:39Z'},{'2013-05-29T20:32:25Z'},{'2013-05-29T20:32:25Z'},{'The buttons on the index were pointing at wrong paths.\n'},{2},{1}
+{3},{2},{2},{2},{'2013-05-29T20:37:35Z'},{'2013-05-29T20:39:35Z'},{'2013-05-29T20:39:35Z'},{''},{2},{0}
+{4},{1},{100},{0},{'2013-05-29T20:49:58Z'},{'2013-05-29T20:50:15Z'},{'2013-05-29T20:50:15Z'},{'Added some additional examples to explain common usage patterns for custom events.\n'},{2},{0}
+{5},{1},{2},{2},{'2013-05-29T20:52:18Z'},{'2013-05-29T20:53:10Z'},{'2013-05-29T20:53:10Z'},{''},{2},{0}
+{6},{1},{69},{23},{'2013-05-29T20:53:41Z'},{'2013-05-29T20:54:16Z'},{'2013-05-29T20:54:16Z'},{''},{2},{0}
+{7},{1},{1},{1},{'2013-05-29T20:55:01Z'},{'2013-05-29T21:01:26Z'},{'2013-05-29T21:01:26Z'},{'Whenever you have a spare moment =]\n'},{2},{0}
+{8},{1},{8},{0},{'2013-05-29T21:05:57Z'},{'2013-05-29T21:06:45Z'},{'2013-05-29T21:06:45Z'},{''},{2},{0}
+{9},{1},{1},{1},{'2013-05-29T23:23:53Z'},{'2013-05-29T23:40:09Z'},{'2013-05-29T23:40:09Z'},{''},{2},{3}
+{11},{2},{2},{2},{'2013-05-30T04:23:33Z'},{'2013-05-30T12:14:18Z'},{'2013-05-30T12:14:18Z'},"{""I messed this up pretty badly and didn't include react _at all_.\n\nTest Plan: npm pack && npm install <packed.tgz>, then require('react-tools')`\n\nFixes #10\n""}",{2},{0}

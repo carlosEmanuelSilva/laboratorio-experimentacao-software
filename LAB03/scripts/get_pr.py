@@ -79,6 +79,9 @@ def construct_info(name, owner):
 
     while len(list_pr) < 100:
         json_response = make_request(cursor, name, owner)
+        print("-"*100)
+        print(json_response)
+        print("-"*100)
         pull_requests = json_response["data"]["repository"]["pullRequests"]["nodes"]
         
         for pr in pull_requests:    
@@ -87,8 +90,10 @@ def construct_info(name, owner):
 
             if pr['mergedAt'] != None:
                 datetime_2 = parser.parse(pr['mergedAt'])
-            else:
+            elif pr['createdAt'] != None:
                 datetime_2 = parser.parse(pr['closedAt'])
+            else:
+                continue;
 
             diferenca = datetime_2 - datetime_1
 

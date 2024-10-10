@@ -1,0 +1,50 @@
+Changed Files
+count    20714.000000
+mean        10.070773
+std        164.391374
+min          0.000000
+25%          1.000000
+50%          1.000000
+75%          3.000000
+max      13130.000000
+Name: changedFiles, dtype: float64
+Additions
+count    2.071400e+04
+mean     1.203371e+03
+std      3.595292e+04
+min      0.000000e+00
+25%      1.000000e+00
+50%      7.000000e+00
+75%      5.600000e+01
+max      3.100726e+06
+Name: additions, dtype: float64
+Deletions
+count     20714.000000
+mean        489.148112
+std       11350.124943
+min           0.000000
+25%           0.000000
+50%           1.000000
+75%           9.000000
+max      460246.000000
+Name: deletions, dtype: float64
+Participants
+count    20714.000000
+mean         2.681471
+std          2.850449
+min          0.000000
+25%          2.000000
+50%          2.000000
+75%          3.000000
+max        233.000000
+Name: participants, dtype: float64
+Comments
+count    20714.000000
+mean         3.294728
+std          7.110428
+min          0.000000
+25%          0.000000
+50%          1.000000
+75%          3.000000
+max        263.000000
+Name: comments, dtype: float64

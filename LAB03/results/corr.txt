@@ -1,0 +1,6 @@
+              changedFiles  additions  deletions  participants  comments
+changedFiles      1.000000   0.430993   0.708407      0.164916  0.040612
+additions         0.430993   1.000000   0.116493      0.085690 -0.002239
+deletions         0.708407   0.116493   1.000000      0.121340  0.034559
+participants      0.164916   0.085690   0.121340      1.000000  0.472521
+comments          0.040612  -0.002239   0.034559      0.472521  1.000000

@@ -21,6 +21,7 @@ def save_plots_box(pr):
     plt.savefig("../visualization/participantsBox")
     pr['comments'].plot.box()
     plt.savefig("../visualization/commentsBox")
+    print(pr[['changedFiles', 'additions', 'deletions', 'participants', 'comments']].corr(method="pearson"))
     
 def make_view():
     pr = pd.read_csv("../results/pr.csv")

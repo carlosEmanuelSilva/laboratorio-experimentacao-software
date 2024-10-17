@@ -38,11 +38,19 @@ Em termos de adições, a média é de cerca de 1.203, mas novamente, há uma gr
 
 A média de exclusões é menor, em torno de 489, mas ainda assim, há uma grande variação, com um desvio padrão de 11.350 e um máximo de 460.246 exclusões.
 
+![Exclusions](https://github.com/carlosEmanuelSilva/laboratorio-experimentacao-software/blob/main/LAB03/visualization/deletionsBox.png?raw=true)
+
 Em relação às interações, a média de participantes por PR é de cerca de 2.68, com um desvio padrão de 2.85 e um máximo de 233 participantes. Isso indica que a maioria dos PRs tem apenas alguns participantes, mas alguns têm muitos.
+
+![Participants](https://github.com/carlosEmanuelSilva/laboratorio-experimentacao-software/blob/main/LAB03/visualization/participantsBox.png?raw=true)
 
 O número médio de comentários por PR é de cerca de 3.29, com um desvio padrão de 7.11 e um máximo de 263 comentários. Isso sugere que enquanto alguns PRs recebem muitos comentários, outros recebem poucos ou nenhum.
 
+![Comments](https://github.com/carlosEmanuelSilva/laboratorio-experimentacao-software/blob/main/LAB03/visualization/commentsBox.png?raw=true)
+
 As correlações entre essas variáveis variam de -0.002 (entre adições e comentários) a 0.71 (entre arquivos alterados e exclusões). Isso indica que algumas dessas variáveis estão mais fortemente relacionadas do que outras. Por exemplo, o número de arquivos alterados em um PR está mais fortemente relacionado ao número de exclusões do que ao número de adições ou comentários.
+
+![Corr](https://cdn.discordapp.com/attachments/749087664552017950/1296614682211385375/image.png?ex=6712ee06&is=67119c86&hm=f607a6dae2dcf7ffb13bbe23eeca78f3d366fb2da57da8525c02cd242e7381d4&)
 
 ## Análise
 

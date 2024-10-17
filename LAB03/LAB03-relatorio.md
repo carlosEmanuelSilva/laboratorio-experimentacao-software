@@ -30,6 +30,8 @@ Além disso, realizamos uma análise descritiva das variáveis, calculando medid
 
 Os dados mostram que o número médio de arquivos alterados em um PR é de aproximadamente 10. No entanto, o desvio padrão é bastante alto, sendo 164, indicando uma grande variação no tamanho dos PRs. O PR com mais arquivos alterados tinha 13.130 arquivos.
 
+![ChangedBox](https://github.com/carlosEmanuelSilva/laboratorio-experimentacao-software/blob/main/LAB03/visualization/changedFilesBox.png?raw=true)
+
 Em termos de adições, a média é de cerca de 1.203, mas novamente, há uma grande variação, com um desvio padrão de 35.952 e um máximo de 3.100.726 adições. Isso sugere que enquanto alguns PRs fazem apenas algumas adições, outros fazem muitas.
 
 ![AdditionsBox](https://cdn.discordapp.com/attachments/749087664552017950/1296612810792632372/additionsBox.png?ex=6712ec47&is=67119ac7&hm=aee75198d85a6d7a0eeefed086c785466d0e25d61822504a309f8df3181621c3&)

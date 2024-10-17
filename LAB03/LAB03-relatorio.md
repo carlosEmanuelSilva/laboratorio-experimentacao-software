@@ -32,6 +32,8 @@ Os dados mostram que o número médio de arquivos alterados em um PR é de aprox
 
 Em termos de adições, a média é de cerca de 1.203, mas novamente, há uma grande variação, com um desvio padrão de 35.952 e um máximo de 3.100.726 adições. Isso sugere que enquanto alguns PRs fazem apenas algumas adições, outros fazem muitas.
 
+https://github.com/carlosEmanuelSilva/laboratorio-experimentacao-software/blob/main/LAB03/visualization/additionsBox.png?raw=true
+
 A média de exclusões é menor, em torno de 489, mas ainda assim, há uma grande variação, com um desvio padrão de 11.350 e um máximo de 460.246 exclusões.
 
 Em relação às interações, a média de participantes por PR é de cerca de 2.68, com um desvio padrão de 2.85 e um máximo de 233 participantes. Isso indica que a maioria dos PRs tem apenas alguns participantes, mas alguns têm muitos.

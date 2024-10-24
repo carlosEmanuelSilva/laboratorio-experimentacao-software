@@ -1,0 +1,245 @@
+_id,title,tags,num_comments/$numberInt,description,upvotes/$numberInt,shares/$numberInt,upvote_ratio/$numberDouble,author,subreddit
+61oly8,New? READ ME FIRST!,,9,"# Welcome to /r/learnprogramming!
+
+## Quick start:
+
+1. New to programming? Not sure how to start learning? See [FAQ - Getting started][faq-start].
+2. Have a question? Our [FAQ][faq] covers many common questions; check that first. Also try searching old posts, either [via google][google] or via reddit's search.
+3. Your question isn't answered in the FAQ? Please read the following:
+
+## Getting debugging help
+
+If your question is about code, make sure it's **specific** and **provides all information up-front**. Here's a checklist of what to include:
+
+1. A [**concise but descriptive title**][debugging-title].
+2. A [**good description**][debugging-description] of the problem.
+4.  A [**minimal**, **easily runnable**][debugging-posting], and [**well-formatted**][debugging-formatting] program that demonstrates your problem.
+5. The output you expected and what you got instead. If you got an error, include the **full** error message.
+
+Do your best to solve your problem before posting. The quality of the answers will be proportional to the amount of effort you put into your post. Note that title-only posts are automatically removed.
+
+Also see [our full posting guidelines][debugging] and the [subreddit rules][rules]. After you post a question, **DO NOT** delete it!
+
+## Asking conceptual questions
+
+Asking conceptual questions is ok, but please check [our FAQ][faq] and search older posts first.
+
+If you plan on asking a question similar to one in the FAQ, explain what exactly the FAQ didn't address and clarify what you're looking for instead. See our full guidelines on [asking conceptual questions][conceptual] for more details.
+
+## Subreddit rules
+
+Please read [our rules][rules] and [other policies][policies] before posting. If you see somebody breaking a rule, report it! Reports and PMs to the mod team are the quickest ways to bring issues to our attention.
+
+
+  [faq-start]: https://www.reddit.com/r/learnprogramming/wiki/faq#wiki_getting_started
+  [faq]: https://www.reddit.com/r/learnprogramming/wiki/faq
+  [google]: https://www.google.com/#q=site:reddit.com%2Fr%2Flearnprogramming
+  [wiki]: https://www.reddit.com/r/learnprogramming/wiki/index
+  [debugging]: https://www.reddit.com/r/learnprogramming/wiki/index#wiki_getting_debugging_help
+  [debugging-title]: https://www.reddit.com/r/learnprogramming/wiki/index#wiki_writing_a_good_title
+  [debugging-description]: https://www.reddit.com/r/learnprogramming/wiki/index#wiki_writing_a_good_description_of_the_problem
+  [debugging-posting]: https://www.reddit.com/r/learnprogramming/wiki/index#wiki_posting_code
+  [debugging-formatting]: https://www.reddit.com/r/learnprogramming/wiki/index#wiki_formatting_code
+  [conceptual]: https://www.reddit.com/r/learnprogramming/wiki/index#wiki_asking_conceptual_questions
+  [rules]: https://www.reddit.com/r/learnprogramming/about/rules
+  [policies]: https://www.reddit.com/r/learnprogramming/wiki/index#wiki_rules",823,823,0.98,michael0x2a,learnprogramming
+1g70nn8,"What have you been working on recently? [October 19, 2024]",,2,"What have you been working on recently? Feel free to share updates on projects you're working on, brag about any major milestones you've hit, grouse about a challenge you've ran into recently... Any sort of ""progress report"" is fair game!
+
+A few requests:
+
+1. If possible, include a link to your source code when sharing a project update. That way, others can learn from your work!
+
+2. If you've shared something, try commenting on at least one other update -- ask a question, give feedback, compliment something cool... We encourage discussion!
+
+3. If you don't consider yourself to be a beginner, include about how many years of experience you have.
+
+This thread will remained stickied over the weekend. [Link to past threads here](https://www.reddit.com/r/learnprogramming/search?q=%22What+have+you+been+working+on+recently%3F%22&sort=new&restrict_sr=on).",2,2,0.67,AutoModerator,learnprogramming
+1g7xofb,What tech stack for web dev these days?,,79,"So i want to get back to web development, what tech stack do you use nowadays?",63,63,0.84,Ykiro,learnprogramming
+1g7zwff,I'm a computer science undergraduate and during our coding exams we have to write code in a notepad without the ability to compile or run it,College,69,I'm not good at memorizing code or anything similar what can I do?,42,42,0.76,Witty_County5128,learnprogramming
+1g89jm1,Will I Get Hired as a Junior Developer at 30?,,19,"Hi everyone .I'm 27 and have been a graphic designer for the past five years. I couldn’t pursue my bachelor's earlier because of a chronic illness. but now my health has improved and I’m  studying computer science. I’ll be 30 by the time I finish my degree, and if I go for a master’s abroad, that’ll add another two years. 
+
+I’m concerned about whether companies will hire me in a junior position at 30 or 32. Most people start their tech careers in their early 20s, so I feel like I’m behind. While I still love design, I want to transition into tech and build a sustainable career.
+
+Has anyone here made a career change later in life or knows someone who has? What should I focus on to increase my chances of getting hired? Any advice or encouragement would be greatly appreciated!
+  ",8,8,0.64,ave_satani666,learnprogramming
+1g7xbim,Best book of DATA STRUCTURE AND ALGORITHMS ,,17,Can anyone suggest me the best book for dsa ??,31,31,0.86,baba_yaga69_69,learnprogramming
+1g8acb7,Should I finish my CS Bachelor?,,12,"Hello, I am a CS undergraduate student. I am in my last semester, currently doing Calculus 3 (differential equations), Electromagnetism and some non CS related classes, such as, Economy (which are mandatory).
+
+It's been a super exhausting and demoralizing semester so far, doing all these classes feels like a waste of time. The classes are interesting, I think they are useful to give the student a surface level understanding on the topics but not essential enough to require students to spend dozens of hours studying the subjects (I spent around 25h studying for the easiest calculus test and I am probably going to get a 50/100 at best, there's 2 more remaining).  
+I have finished all CS related classes, OSes, Computer Networks, ML, Computer Architecture, OOP, Software Engineering, Algorithms and DS, etc, etc. I understand that I might be the one out of place here since this bachelor is in a sense academic and the basis for people who will go on to pursue PhD and all that and I am simply not cut for it. I don't indent on doing any academic stuff, I just want to get my hands out there. Because of this I really feel like I am wasting my time here. This school is infamous for its' difficulty on these theoretical subjects, specially math, it might just be my fault for coming here.
+
+My parents highly encourage me to finish it, this is the first generation in the family that goes into college so there's this idea everywhere I look that everyone should get a degree. I have asked some people and some said ""Just finish it, it's better because you might be unable to climb without a degree"".
+
+I love programming, it's what I do on my free time, it gives me the kicks. I don't give a crap if an institution deemed me unfit to program just because I can't solve differential equations, I will do it regardless.  
+I also get super unmotivated seeing how incapable I seem to be at this last steps of the Bachelor, these really are the hardest theoretical subjects, I did ok on the previous calculus and physics classes. I know that if I took one more year then I'd eventually finish it, but, I am exhausted and so unhappy I believe I would just end up depressed and burned out if I did so.  
+I think I am an OK CSer, I am not an 100x programmer but, I have been graded pretty well on most projects I did during the bachelor and even got top student on one of the classes. I also got some open source contributions and, so far, everytime someone has asked of me something I have always been able to deliver and people always ended up satisfied (of course these are usually very small things).
+
+I will try really hard to finish the Bachelor this semester, but if I am unable to do so I might never end up the Bachelor and just get out there working.  
+Can someone offer brutally honest advice on this?",3,3,0.64,Sufficient_Fix_8338,learnprogramming
+1g89xr4,More info on (undirected) virtual graphs (vertices and edges),,2,"Consider an (infinite) undirected virtual graph where the vertices are integer lattice points (eg, `[3,4]`) and the edges are weight 1 ""knight moves"" from that lattice point. For example, the eight edges from `[3,4]` would be `[4,6], [5,5], [5,3], [4,2], [2,2], [1,3], [1,5]`.
+
+An A* search on the graph would find the shortest path between two lattice points using only ""knight moves"".
+
+Since the graph is infinite, it has to be created ""on the fly"". For example, there would be a `neighbors` function that queries the neighbors of a given vertex and a `weight` function that queries the weight of a given edge. There could also be a `heuristic` function that helps A* algorithm find a path faster.
+
+I've gotten Microsoft Copilot to create such a ""virtual graph"" for me in Julia, but I'd like to learn more about them. In particular, I'm guessing there are existing libraries for these types of graphs. However, both AI and search engines aren't super helpful because I think ""virtual graph"" is the wrong term
+",3,3,1.0,jeffcgroves,learnprogramming
+1g7nqal,"When I code, it takes me a long time, and I feel a lot of anxiety and guilt.",,33,"I’ve been trying to learn to code, but I often feel panic and anxiety when I sit down to code. This leads me to avoid it altogether. For example, I recently focused on the topic of authentication. I thought I could learn it in about one hour, but it actually took me several hours. By the time I moved on to the next topic, I had forgotten much of what I learned.
+
+As a master's student, I feel the pressure of time and competition. My friends and classmates have secured jobs in their undergrad and few also after their masters, while I’m still struggling to complete my degree. I try to push myself to learn more, but I often end up feeling overwhelmed and lost.
+
+I experience a lot of guilt about my chronic procrastination, which only heightens my anxiety. I’ve faced significant challenges in my life, including trauma and OCD, which makes coding 5x harder for me than for others. I want to create a full-stack project by the time I finish my master’s, but I worry about my progress.
+
+I see others completing projects in just a couple of months, which makes me feel inadequate. I’ve been focusing on my own journey, understanding that it might take me longer—even 10 months or more—to build something similar. In the past, I’ve watched tutorials and added additions to GitHub projects, but that approach left me feeling like I only have a shallow understanding of coding after 5 - 6 years of trying.
+
+Right now, I’m taking it slow, learning bit by bit and trying to memorize the patterns. Although it’s taking a lot of time, at least I feel like I’m making some progress. However, I can’t shake the feeling that I’ve wasted years, and that makes me sad :(
+
+I’d really appreciate any advice on how to manage this anxiety and create a more effective learning plan. Thank you!",123,123,0.93,Big_Meet1320,learnprogramming
+1g83yv5,Should I Stick with Java & Spring Boot for My Career? ,,8,"Hey everyone,
+
+I'm a computer engineering graduate from Lebanon, and I've been focusing on Java, OOP, and data structures. I've also done a lot of LeetCode to improve my problem-solving skills and completed an internship working with Spring Boot. Now, I’m trying to figure out the best way to expand my skills and make myself more employable.
+
+I’m wondering if I should stick to Java or if there’s something more specific I should become an expert in. Is Spring Boot a solid long-term option, or will it become outdated soon? I don’t want to invest time in something that doesn’t have good job prospects or won’t last in the industry.
+
+Lastly, I’m from Lebanon and I’m looking to leave for better job opportunities. I’ve been applying on LinkedIn, but if anyone has suggestions on which countries or companies are worth focusing on, I’d really appreciate it.
+
+Thanks for any advice!
+
+",6,6,1.0,BoredTangerine,learnprogramming
+1ftmbr3,Monthly Getting Started / Web Dev Career Thread,Monthly Career Thread,36,"Due to a growing influx of questions on this topic, it has been decided to commit a monthly thread dedicated to this topic to reduce the number of repeat posts on this topic. These types of posts will no longer be allowed in the main thread.
+
+Many of these questions are also addressed in the sub FAQ or may have been asked in [previous monthly career threads](/r/webdev/search?q=flair%3AMonthlyCareerThread&restrict_sr=on&sort=new&t=all).
+
+Subs dedicated to these types of questions include [r/cscareerquestions](/r/cscareerquestions) for general and opened ended career questions and [r/learnprogramming](/r/learnprogramming) for early learning questions.
+
+A general recommendation of topics to learn to become industry ready include:
+
+- [HTML/CSS/JS Bootcamp](https://www.udemy.com/course/javascript-beginners-complete-tutorial)
+- [Version control](https://www.atlassian.com/git/tutorials/what-is-version-control)
+- [Automation](https://blog.logrocket.com/tools-and-modern-workflow-for-front-end-developers-505c7227e917/)
+- [Front End Frameworks (React/Vue/Etc)](https://www.freecodecamp.org/news/complete-guide-for-front-end-developers-javascript-frameworks-2019/)
+- [APIs and CRUD](https://www.freecodecamp.org/news/crud-operations-using-vanilla-javascript-cd6ee2feff67/)
+- [Testing (Unit and Integration)](https://raygun.com/blog/javascript-unit-testing-frameworks/)
+- [Common Design Patterns](https://www.patterns.dev/)
+
+You will also need a portfolio of work with 4-5 personal projects you built, and a resume/CV to apply for work.
+
+Plan for 6-12 months of self study and project production for your portfolio before applying for work.",16,16,1.0,AutoModerator,webdev
+1g89xfy,"I fired a great dev and wasted $50,000",,89,"I almost killed my startup before it even launched.
+
+I started building my tech startup 18 months ago. As a non technical founder, I hired a web dev from Pakistan to help build my idea. He was doing good work but I got impatient and wanted to move faster.
+
+I made a HUGE mistake. I put my reliable developer on pause and hired an agency that promised better results. They seemed professional at first but I soon realized I was just one of many clients. My project wasn't a priority for them.
+
+After wasting so much time and money, I went back to my original Pakistani developer. He thankfully accepted the job again and is now doing amazing work, and we're finally close to launching our MVP.
+
+If you're a non technical founder:
+
+1. Take the time to find a developer you trust and stick with them it's worth it
+2. Don't fall for any promises from these big agencies or get tempted by what they offer
+3. ⁠Learn enough about the tech you're using to understand timelines
+4. ⁠Be patient. It takes time to build
+
+Hope someone can learn from my mistakes. It's not worth losing time and money when you've already got a good thing going.",118,118,0.66,QuinnHannan1,webdev
+1g805ca,"The flairs on this sub are unreadable, I thought accessibility and readability were important in web development. ",Discussion,24,,259,259,0.92,adorkablegiant,webdev
+1g83h3g,Do you think going back to HTML / CSS / JavaScript type webdev will work ? ,,81,"I've noticed that frontend development has become quite complex. Obviously its also because the pages these days are something else wrt to what they do. I was thinking what if we said ""fuck it"" and just went back to plain old HTML / CSS / JS for certain type of webdev ? Any footguns that need to be taken care of ? Is it necessary to use a framework always ?
+
+  
+Edit: The original post gave the impression that we can just abandon all tools. Obviously that would be counter productive especially in large scale professional code-bases. I've edited it to: which types of problems we can solve using just HTML/CSS/JS (no UI frameworks) ? ",54,54,0.78,fu_2016,webdev
+1g7wtbf,What to do when I can’t finish a ticket?,,40,"I’ve started at this company for 3 weeks now and I did some tickets, easy stuff but I guess the more important thing was to make me get used to the project and its structure and where to find stuff.
+
+For a couple of days I’ve been investigating a bug described in this new ticket and I honestly have no idea how to fix it. I did a lot of debugging and I think I found the root cause, basically it’s a form and it has two parts and for some reason the logic implemented so far seems to find changes made in both parts when actually only one part was edited. This is not super obvious and it’s encountered in some edge cases I found and I feel there might be other edge cases I haven’t identified yet.
+
+I spoke to the dev who has more experience on this project and has helped me before with the questions I’ve had, I told him what I found and what I think to be the problem and I’ve been told to do some things but honestly it didn’t help.
+
+Tomorrow it’s my third day on this ticket. Don’t know what I am gonna say in daily. Should I give up and tell them I can’t find a fix? Should I keep trying? I even spent some time this weekend trying some ideas I’ve had while I thought about this ticket but it didn’t work.",70,70,0.9,Royal-Reindeer9380,webdev
+1g7lm94,So loading bars were fake all along?,,154,"Doing a feature on my website where you can basically load in some data file you have.
+
+Some data files can be very large and take some time to process, so I thought I'd make a loading bar.
+
+I guess I just realized there's no real way to make one that actually tracks how far along you are from fully loading the data?
+
+How do you implement it?
+
+I'd like to implement one that, ideally, was accurate but I guess that's not really possible.
+
+",429,429,0.88,ohkaybodyrestart,webdev
+1g81lys,Rate my Website please,,43,"Hey all, Just wanting to see what you think of my companys website. I get kind of boxed in after a while and lose creativity, but I like the flow of it, I need to add more content. If you have any constructive advice, i'm all ears.. or eyes?
+
+  
+[https://www.desotobitsandbytes.com](https://www.desotobitsandbytes.com)",8,8,0.79,Potential_Study_4203,webdev
+1g8boxl,Should I offer email/password sign up if I have email OTP and other social logins? ,Discussion,3,"I have a web service that is used by small businesses 
+
+I currently offer Google social login, but am thinking about adding other login and sign up methods. I'm using Supabase Auth
+
+However, I feel iffy about offering username and password because it means more frontend implementation + storing passwords. Also dealing with password resets, etc etc, seems like a PITA
+
+In replacement of email/password, I was thinking of offering email OTP (magic links) instead 
+
+What do you think? ",2,2,1.0,WhosAfraidOf_138,webdev
+1g867oc,Vanilla CSS enough for a course platform?,,28,"I'm creating a course/learning platform. I'm using HTML, vanilla CSS, and vanilla JS. Also Django for the backend.  
+Do you think vanilla CSS is realistic anymore or should I use Tailwind?",4,4,0.83,erateran,webdev
+1g88b4c,Any reason to not use Wordpress for majority of  smaller clients?,,46,"I am looking at different CMS platforms out there.   I am not a fan of Wordpress but in all honesty I can not find a better all round platform then Wordpress for a variety of clients.
+
+However with all of it problems since it's so popular you have a ton options. It can also scale pretty easy if you have the backend to do it.",3,3,0.58,Proper-Store3239,webdev
+1chs4ib,The State of the Subreddit (May 2024),,151,"Hello fellow programs! 
+
+**tl;dr** some revisions to the rules to reduce low quality blogspam. The most notable are: banning **listicles** (""7 cool things I copy-pasted from somebody else!""), **extreme beginner articles** (""how to use a for loop""), and some **limitations on career posts** (they must be related to programming careers). Lastly, I want **feedback** on these changes and the subreddit in general and invite you to **vote** and **use the report button** when you see posts that violate the rules because they'll help us get to it faster.
+
+r/programming's mission is to **be the place with the highest quality programming content, where I can go to read something interesting and learn something new every day**. [Last time we spoke](https://www.reddit.com/r/programming/comments/173viwj/meta_the_future_of_rprogramming/) I introduced the rules that we've been moderating by to accomplish that. Subjectively, quality on the subreddit while not perfect is much improved since then. Since it's still mainly just me moderating it's hard to tell what's objectively bad vs what just annoys me personally, and to do that I've been keeping an eye on a few forms of content to see how they perform (using mostly votes and comment quantity & health).
+
+Based on that the notable changes are:
+
+* 🚫 **Listicles**. ""7 cool python functions"", ""14 ways to get promoted"". These are usually spammy content farms. If you found 15 amazing open source projects that will blow my mind, post those projects instead.
+* 🚫 **Extreme beginner content** (""how to write a for loop""). This is difficult to identify objectively (how can you tell it from good articles like ""how does kafka work?"" or ""getting started with linear algebra for ML""?) so there will be some back and forth on calibrating, but there has been a swath of very low quality [""tutorials""](https://www.reddit.com/r/programming/comments/1chogwb/first_program_of_java/) if you can even call them that, that I very much doubt anybody is actually learning anything from and they sit at 0 points. Since ""what is a variable?"" is probably not useful to anybody already reading r/programming this is a quick painless way to boost the average quality on the subreddit.
+* ⚠️ **Career posts must be related to software engineering careers**. To be honest I'm personally not a fan of career posts on r/programming at all (but shout out to [cscareerquestions](https://www.reddit.com/r/cscareerquestions/)!) but during the last rules revision they were doing pretty well so I know there is an audience for it that I don't want to get in the way of. Since then there has been growth in this category [all across the quality spectrum](https://www.reddit.com/domain/eng-leadership.com/) (with an accompanying rise in product management methodology like ""agile vs waterfall"", also across the quality spectrum). Going forward these posts must be distinctly related to software engineering careers rather than just generic working. This isn't a huge problem yet but I predict that it will be as the percentage of career content is growing.
+
+In all of these cases the category is more of a tell that the quality is probably low, so exceptions will be made where that's not the case. These are difficult categories to moderate by so I'll **probably make some mistakes** on the boundaries and that's okay, let me know and we'll figure it out.
+
+Some other categories that I'm **keeping an eye on** but not ruling on today are:
+
+* **Corporate blogs** simply describing their product in the guise of ""what is an authorisation framework?"" (I'm [looking at you Auth0](https://www.reddit.com/domain/a0.to/) and [others like it](https://www.reddit.com/r/programming/comments/1cgx739/what_is_ai_infrastructure_software/)). Pretty much anything with a rocket ship emoji in it. Companies use their blogs as marketing, branding, and recruiting tools and that's okay when it's ""writing a good article will make people think of us"" but it doesn't go here if it's just a literal advert. Usually they are titled in a way that I don't spot them until somebody reports it or mentions it in the comments.
+* **Generic AI content** that [isn't](https://www.reddit.com/r/programming/comments/1chll2o/ai_still_hasnt_figured_out_branding_yet_heres_why/) technical in content. ""Does Devin mean that programming is over?"", ""Will AI put farmers out of work?"", ""Is AI art?"". For a few weeks these were the titles of about 20 articles per day, some scoring high and some low. Fashions like this come and go but I'm keeping an eye on it.
+* **Newsletters**: There are a [few people](https://www.reddit.com/r/programming/comments/1cho9ye/big_tech_digest_15_introducing_meta_llama_3_at/) that post every edition of their newsletter to reddit, where that newsletter is really just aggregating content from elsewhere. It's clear that they are trying to grow a monetised audience using reddit, but that's okay if it's providing valuable curation or if the content is good and people like it. So we'll see.
+* **Career posts**. Personally I'd like r/programming to be a deeply technical place but as mentioned there's clearly an audience for career advice. That said, the posts that are scoring the highest in this category are mostly people upvoting to agree with a statement in the title, not something that anybody is learning from. (""Don't make your engineers context-switch."" ""Everybody should get private offices."" ""Micromanaging sucks."") The ones that one could actually learn from with an instructive lean mostly don't do well; people seem to not really be interested in how to have the best 1:1s with their managers or how you went from Junior to Senior in 18 hours (though [sometimes they are](https://www.reddit.com/domain/highgrowthengineer.com/)). That tells me that there's some subtlety to why these posts are scoring well and I'm keeping an eye on the category. What I don't want is for ""vote up if you want free snacks"" to push out the good stuff or to be a farm for the other 90% of content that's really just personal brand builders.
+
+I'm sure you're as annoyed as I am about these but they're fuzzy lines and difficult to come up with objective criteria around. As always **I'm looking for feedback** on these and if I'm missing any and any other points regarding the subreddit and moderation so let me know what you think.
+
+------
+
+## The rules!
+
+With all of that, here is the current set of the rules with the above changes included so I can link to them all in one place.
+
+✅ means that it's currently allowed, 🚫 means that it's not currently allowed, ⚠️ means that we leave it up if it is already popular but if we catch it young in its life we do try to remove it early.
+
+* ✅ Actual programming content. They probably have actual code in them. Language or library writeups, papers, technology descriptions. How an allocator works. How my new fancy allocator I just wrote works. How our startup built our Frobnicator. For many years this was the only category of allowed content.
+* ✅ Academic CS or programming papers
+* ✅ Programming news. ChatGPT can write code. A big new CVE just dropped. Curl 8.01 released now with Coffee over IP support.
+* ✅ Programmer career content. How to become a Staff engineer in 30 days. Habits of the best engineering managers. These must be related or specific to programming/software engineering careers in some way
+* ✅ Articles/news interesting *to* programmers but not about programming. Work from home is bullshit. Return to office is bullshit. There's a Steam sale on programming games. Terry Davis has died. How to SCRUMM. App Store commissions are going up. How to hire a more diverse development team. Interviewing programmers is broken.
+* ⚠️ General technology news. Google buys its last competitor. A self driving car hit a pedestrian. Twitter is collapsing. Oculus accidentally showed your grandmother a penis. Github sued when Copilot produces the complete works of Harry Potter in a code comment. Meta cancels work from home. Gnome dropped a feature I like. How to run Stable Diffusion to generate pictures of, uh, cats, yeah it's definitely just for cats. A bitcoin VR metaversed my AI and now my app store is mobile social local.
+* 🚫 Politics. The Pirate Party is winning in Sweden. Please vote for net neutrality. Big Tech is being sued in Europe for *gestures broadly*. Grace Hopper Conference is now 60% male.
+* 🚫 Gossip. Richard Stallman switches to Windows. Elon Musk farted. Linus Torvalds was a poopy-head on a mailing list. The People's Rust Foundation is arguing with the Rust Foundation For The People. Terraform has been forked into Terra and Form. Stack Overflow sucks now. Stack Overflow is good actually.
+* ✅ Demos with code. I wrote a game, here it is on GitHub
+* 🚫 Demos without code. I wrote a game, come buy it! Please give me feedback on my startup (totally not an ad nosirree). I stayed up all night writing a commercial text editor, here's the pricing page. I made a DALL-E image generator. I made the fifteenth animation of A* this week, here's a GIF.
+* 🚫 AskReddit type forum questions. What's your favourite programming language? Tabs or spaces? Does anyone else hate it when.
+* 🚫 Support questions. How do I write a web crawler? How do I get into programming? Where's my missing semicolon? Please do this obvious homework problem for me. Personally I feel very strongly about not allowing these because they'd quickly drown out all of the actual content I come to see, and there are already much more effective places to get them answered anyway. In real life the quality of the ones that we see is also universally very low.
+* 🚫 Surveys and 🚫 Job postings and anything else that is looking to extract value from a place a lot of programmers hang out without contributing anything itself.
+* 🚫 Meta posts. DAE think r/programming sucks? Why did you remove my post? Why did you ban this user that is totes not me I swear I'm just asking questions. Except this meta post. This one is okay because I'm a tyrant that the rules don't apply to (I assume you are saying about me to yourself right now).
+* 🚫 Images, memes, anything low-effort or low-content. Thankfully we very rarely see any of this so there's not much to remove but like support questions once you have a few of these they tend to totally take over because it's easier to make a meme than to write a paper and also easier to vote on a meme than to read a paper.
+* ⚠️ Posts that we'd normally allow but that are obviously, unquestioningly super low quality like blogspam copy-pasted onto a site with a bazillion ads. It has to be pretty bad before we remove it and even then sometimes these are the first post to get traction about a news event so we leave them up if they're the best discussion going on about the news event. There's a lot of grey area here with CVE announcements in particular: there are a lot of spammy security ""blogs"" that syndicate stories like this. Pretty much all listicles are disallowed under this rule. 7 cool python functions. 14 ways to get promoted. If you found 15 amazing open source projects that will blow my mind, post those projects instead.
+* ⚠️ Extreme beginner content. What is a variable. What is a `for` loop. Making an HTPT request using curl. Like listicles this is disallowed because of the quality typical to them, but high quality tutorials are still allowed and actively encouraged.
+* ⚠️ Posts that are duplicates of other posts or the same news event. We leave up either the first one or the healthiest discussion.
+* ⚠️ Posts where the title editorialises too heavily or especially is a lie or conspiracy theory.
+* Comments are only very loosely moderated and it's mostly 🚫 Bots of any kind (Beep boop you misspelled misspelled!) and 🚫 Incivility (You idiot, everybody knows that my favourite toy is better than your favourite toy.)
+However the number of obvious GPT comment bots is rising and will quickly become untenable for the number of active moderators we have.",651,651,0.97,ketralnis,programming
+1g823xn,Software Engineer Titles Have (Almost) Lost All Their Meaning,,180,,459,459,0.93,suckaturdnow,programming
+1g85xbs,"The empire of C++ strikes back with Safe C++ blueprint: « After two years of being beaten with the memory-safety stick, the C++ community has published a proposal to help developers write less vulnerable code. »",,79,,97,97,0.84,fchung,programming
+1g7vv66,QUIC is not Quick Enough over Fast Internet,,68,,266,266,0.93,MissionToAfrica,programming
+1g7yi6i,REST APIs Turn 25: How They Came To Be and What Could Be Next,,2,,86,86,0.89,shrsv,programming
+1g7z90g,SMURF: Beyond the Test Pyramid,,19,,35,35,0.91,codingindoc,programming
+1g7vkkr,Searching for and navigating Git commits,,3,,22,22,0.85,XLEX97,programming
+1g7kdwy,The Part of PostgreSQL We Hate the Most,,25,,129,129,0.9,sionescu,programming
+1g83a6s,How to do distributed locking (2016),,0,,6,6,0.71,yusufaytas,programming
+1g75r84,How is this Website so fast!? — Breaking down the McMaster Carr website and the techniques they use to make it so dang fast,,311,,1094,1094,0.9,h4l,programming

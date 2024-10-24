@@ -1,0 +1,40 @@
+num_comments
+count     30.000000
+mean      54.400000
+std       68.095065
+min        0.000000
+25%        9.750000
+50%       30.500000
+75%       76.500000
+max      311.000000
+Name: num_comments, dtype: float64
+upvotes
+count      30.000000
+mean      163.733333
+std       269.449750
+min         2.000000
+25%         6.500000
+50%        48.000000
+75%       127.500000
+max      1094.000000
+Name: upvotes, dtype: float64
+shares
+count      30.000000
+mean      163.733333
+std       269.449750
+min         2.000000
+25%         6.500000
+50%        48.000000
+75%       127.500000
+max      1094.000000
+Name: shares, dtype: float64
+upvote_ratio
+count    30.000000
+mean      0.849667
+std       0.121129
+min       0.580000
+25%       0.782500
+50%       0.885000
+75%       0.930000
+max       1.000000
+Name: upvote_ratio, dtype: float64

@@ -32,7 +32,7 @@ O objeto experimental do experimento presente é um conjunto de consultas à API
 
 1. Listar quais os repositórios de um usuário específico.
 2. Obter issues e pull requests de um repositório específico.
-3. Listar repositórios de uma linguagem de programação específica.
+3. Listar repositórios de uma linguagem de programação específica e ordenar pelo núemro de estrelas de forma crescente.
 4. Obter informações sobre os colaboradores de um repositório.
 5. Listar informções de commits limitados por um período de tempo.
 
